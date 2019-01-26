@@ -1,0 +1,2 @@
+class Parsonality < ApplicationRecord
+end

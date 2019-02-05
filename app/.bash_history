@@ -135,3 +135,13 @@ rails g model Monster no:integer name:string screen_name:string type1:string typ
 rails db:migrate
 rails db:migrate
 exit
+cd poketool/
+exit
+cd poketool/
+ls -la
+rails db:seed
+rails db:migrate
+rails db:seed
+rails db:seed
+rails db:seed
+exit

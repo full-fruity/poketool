@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  'no': 1
+  name: MyString
+  screen_name: MyString
+  type1: MyString
+  type2: MyString
+  hp: 1
+  atk: 1
+  blk: 1
+  ctc: 1
+  def: 1
+  spd: 1
+
+two:
+  'no': 1
+  name: MyString
+  screen_name: MyString
+  type1: MyString
+  type2: MyString
+  hp: 1
+  atk: 1
+  blk: 1
+  ctc: 1
+  def: 1
+  spd: 1

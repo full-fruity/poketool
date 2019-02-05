@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  screen_name: MyString
+  element: MyString
+  category: MyString
+  power: 1
+  accuracy: 1
+  pp: 1
+
+two:
+  name: MyString
+  screen_name: MyString
+  element: MyString
+  category: MyString
+  power: 1
+  accuracy: 1
+  pp: 1

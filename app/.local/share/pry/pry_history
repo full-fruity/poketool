@@ -1,0 +1,23 @@
+quit
+_type = Type.find_by(name: 'electric')
+_type.name
+_type.stronged_to_type
+_type.stronged_to_type.length
+_type.stronging_to_type.length
+quit
+_type = Type.find_by(name: 'electric')
+_type.stronged_to_type
+_type.stronged_from_type
+_type = Type.find_by(id: 2)
+_type.stronged_from_type
+quit
+_type = Type.find(1)
+_type.strong_points
+quit
+_type = Type.find(1)
+_type = Type.findby(name: normal)
+_type = Type.find_by(name: normal)
+_type = Type.find_by(name: ghost)
+_type = Type.find(5)
+_type.invalids
+quit

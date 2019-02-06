@@ -233,3 +233,14 @@ Processing by RailsAdmin::MainController#index as HTML
 Completed 200 OK in 73ms (Views: 37.2ms | ActiveRecord: 20.0ms)
 
 
+Started GET "/admin/invalid?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 03:42:28 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"invalid"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mInvalid Load (3.4ms)[0m  [1m[34mSELECT  "invalids".* FROM "invalids" ORDER BY invalids.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (47.0ms)
+Completed 200 OK in 65ms (Views: 42.3ms | ActiveRecord: 14.6ms)
+
+

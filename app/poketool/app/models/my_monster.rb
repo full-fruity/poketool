@@ -24,4 +24,6 @@ class MyMonster < ApplicationRecord
     validates :effort_spd
   end
 
+  belongs_to :monster, :class_name => 'Monster'
+
 end

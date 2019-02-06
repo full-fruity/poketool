@@ -17688,3 +17688,53 @@ Processing by RailsAdmin::MainController#index as HTML
 Completed 200 OK in 171ms (Views: 109.5ms | ActiveRecord: 41.7ms)
 
 
+Started GET "/admin/monster?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 10:33:47 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"monster"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMonster Load (7.0ms)[0m  [1m[34mSELECT  "monsters".* FROM "monsters" ORDER BY monsters.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "monsters"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (108.6ms)
+Completed 200 OK in 151ms (Views: 106.7ms | ActiveRecord: 30.0ms)
+
+
+Started GET "/admin/monster?model_name=monster&sort=id&_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 10:33:52 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"monster", "sort"=>"id", "_pjax"=>"[data-pjax-container]"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMonster Load (1.3ms)[0m  [1m[34mSELECT  "monsters".* FROM "monsters" ORDER BY monsters.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "monsters"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (115.4ms)
+Completed 200 OK in 145ms (Views: 128.0ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/admin/monster?model_name=monster&sort=id&sort_reverse=true&_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 10:33:53 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"monster", "sort"=>"id", "sort_reverse"=>"true", "_pjax"=>"[data-pjax-container]"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMonster Load (4.6ms)[0m  [1m[34mSELECT  "monsters".* FROM "monsters" ORDER BY monsters.id asc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "monsters"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (134.8ms)
+Completed 200 OK in 155ms (Views: 139.3ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/admin/monster/1?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 10:33:56 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"monster", "id"=>"1"}
+  [1m[36mMonster Load (4.5ms)[0m  [1m[34mSELECT  "monsters".* FROM "monsters" WHERE "monsters"."id" = $1 ORDER BY "monsters"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (6.7ms)
+Completed 200 OK in 41ms (Views: 20.2ms | ActiveRecord: 4.5ms)
+
+

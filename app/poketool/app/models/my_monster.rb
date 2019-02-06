@@ -1,0 +1,2 @@
+class MyMonster < ApplicationRecord
+end

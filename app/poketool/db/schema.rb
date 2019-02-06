@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_05_090426) do
+ActiveRecord::Schema.define(version: 2019_02_06_064506) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,31 @@ ActiveRecord::Schema.define(version: 2019_02_05_090426) do
     t.integer "ctc"
     t.integer "def"
     t.integer "spd"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "my_monsters", force: :cascade do |t|
+    t.string "user", null: false
+    t.string "monster", null: false
+    t.string "nicname"
+    t.string "personality", null: false
+    t.integer "individual_hp"
+    t.integer "individual_atk"
+    t.integer "individual_blk"
+    t.integer "individual_ctc"
+    t.integer "individual_def"
+    t.integer "individual_spd"
+    t.integer "effort_hp"
+    t.integer "effort_atk"
+    t.integer "effort_blk"
+    t.integer "effort_ctc"
+    t.integer "effort_def"
+    t.integer "effort_spd"
+    t.string "skill1"
+    t.string "skill2"
+    t.string "skill3"
+    t.string "skill4"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

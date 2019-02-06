@@ -17738,3 +17738,210 @@ Processing by RailsAdmin::MainController#show as HTML
 Completed 200 OK in 41ms (Views: 20.2ms | ActiveRecord: 4.5ms)
 
 
+Started GET "/admin/strong_point?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:22:05 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"strong_point"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mStrongPoint Load (5.9ms)[0m  [1m[34mSELECT  "strong_points".* FROM "strong_points" ORDER BY strong_points.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (2.4ms)[0m  [1m[34mSELECT "types".* FROM "types" WHERE "types"."id" IN ($1, $2, $3, $4, $5, $6)[0m  [["id", 1], ["id", 2], ["id", 3], ["id", 4], ["id", 6], ["id", 7]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (1.5ms)[0m  [1m[34mSELECT "types".* FROM "types" WHERE "types"."id" IN ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)[0m  [["id", 18], ["id", 1], ["id", 3], ["id", 4], ["id", 12], ["id", 16], ["id", 2], ["id", 10], ["id", 13], ["id", 7], ["id", 9]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "strong_points"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (183.3ms)
+Completed 200 OK in 240ms (Views: 178.1ms | ActiveRecord: 44.8ms)
+
+
+Started GET "/admin/skill?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:22:08 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"skill"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mSkill Load (4.4ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" ORDER BY skills.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "skills"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (201.5ms)
+Completed 200 OK in 250ms (Views: 206.8ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/admin/type?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:22:10 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"type"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mType Load (1.2ms)[0m  [1m[34mSELECT  "types".* FROM "types" ORDER BY types.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (1.2ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (1.7ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 17]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (1.4ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 16]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (1.4ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 15]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (1.5ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 14]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (1.4ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 13]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 12]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 11]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.7ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 10]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 9]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 8]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 7]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 6]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 5]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 4]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.9ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 3]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.9ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 2]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mStrongPoint Load (0.9ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 1]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (197.6ms)
+Completed 200 OK in 221ms (Views: 189.8ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/admin/type/18?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:22:16 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"type", "id"=>"18"}
+  [1m[36mType Load (1.3ms)[0m  [1m[34mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 ORDER BY "types"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax
+  [1m[36mStrongPoint Load (0.8ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (2.5ms)[0m  [1m[34mSELECT "types".* FROM "types" INNER JOIN "strong_points" ON "types"."id" = "strong_points"."to_type_id" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mWeakPoint Load (2.8ms)[0m  [1m[34mSELECT "weak_points".* FROM "weak_points" WHERE "weak_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (2.0ms)[0m  [1m[34mSELECT "types".* FROM "types" INNER JOIN "weak_points" ON "types"."id" = "weak_points"."to_type_id" WHERE "weak_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mInvalid Load (2.3ms)[0m  [1m[34mSELECT "invalids".* FROM "invalids" WHERE "invalids"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (2.7ms)[0m  [1m[34mSELECT "types".* FROM "types" INNER JOIN "invalids" ON "types"."id" = "invalids"."to_type_id" WHERE "invalids"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (90.2ms)
+Completed 200 OK in 123ms (Views: 70.4ms | ActiveRecord: 34.8ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1497027541195725840)[0m
+  ↳ bin/rails:9
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (3.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1497027541195725840)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/admin/type/18" for 172.19.0.1 at 2019-02-06 11:35:30 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"type", "id"=>"18"}
+  [1m[36mType Load (2.2ms)[0m  [1m[34mSELECT  "types".* FROM "types" WHERE "types"."id" = $1 ORDER BY "types"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application
+  [1m[36mStrongPoint Load (4.5ms)[0m  [1m[34mSELECT "strong_points".* FROM "strong_points" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (2.9ms)[0m  [1m[34mSELECT "types".* FROM "types" INNER JOIN "strong_points" ON "types"."id" = "strong_points"."to_type_id" WHERE "strong_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mWeakPoint Load (2.8ms)[0m  [1m[34mSELECT "weak_points".* FROM "weak_points" WHERE "weak_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (1.7ms)[0m  [1m[34mSELECT "types".* FROM "types" INNER JOIN "weak_points" ON "types"."id" = "weak_points"."to_type_id" WHERE "weak_points"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mInvalid Load (2.5ms)[0m  [1m[34mSELECT "invalids".* FROM "invalids" WHERE "invalids"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (3.1ms)[0m  [1m[34mSELECT "types".* FROM "types" INNER JOIN "invalids" ON "types"."id" = "invalids"."to_type_id" WHERE "invalids"."from_type_id" = $1[0m  [["from_type_id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (130.3ms)
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/layouts/rails_admin/_secondary_navigation.html.haml (8.9ms)
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/layouts/rails_admin/_navigation.html.haml (18.4ms)
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (73.2ms)
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/layouts/rails_admin/pjax.html.haml (12.1ms)
+Completed 200 OK in 959ms (Views: 848.4ms | ActiveRecord: 76.1ms)
+
+
+Started GET "/admin/monster?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:35:34 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"monster"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMonster Load (3.5ms)[0m  [1m[34mSELECT  "monsters".* FROM "monsters" ORDER BY monsters.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "monsters"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (162.0ms)
+Completed 200 OK in 213ms (Views: 177.7ms | ActiveRecord: 17.8ms)
+
+
+Started GET "/admin/my_monster?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:35:37 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"my_monster"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMyMonster Load (3.6ms)[0m  [1m[34mSELECT  "my_monsters".* FROM "my_monsters" ORDER BY my_monsters.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (98.4ms)
+Completed 200 OK in 138ms (Views: 106.8ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/admin/monster?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:37:13 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"monster"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mMonster Load (1.4ms)[0m  [1m[34mSELECT  "monsters".* FROM "monsters" ORDER BY monsters.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "monsters"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (110.0ms)
+Completed 200 OK in 137ms (Views: 119.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/admin/invalid?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:37:15 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"invalid"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mInvalid Load (1.6ms)[0m  [1m[34mSELECT  "invalids".* FROM "invalids" ORDER BY invalids.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (1.6ms)[0m  [1m[34mSELECT "types".* FROM "types" WHERE "types"."id" IN ($1, $2, $3, $4, $5)[0m  [["id", 5], ["id", 6], ["id", 8], ["id", 12], ["id", 18]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mType Load (1.6ms)[0m  [1m[34mSELECT "types".* FROM "types" WHERE "types"."id" IN ($1, $2, $3, $4, $5, $6)[0m  [["id", 6], ["id", 5], ["id", 7], ["id", 10], ["id", 9], ["id", 15]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (80.7ms)
+Completed 200 OK in 104ms (Views: 88.7ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/admin/skill?_pjax=%5Bdata-pjax-container%5D" for 172.19.0.1 at 2019-02-06 11:37:17 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"skill"}
+  Rendering /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mSkill Load (3.8ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" ORDER BY skills.id desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "skills"[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendered /usr/local/bundle/gems/rails_admin-1.4.2/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (131.1ms)
+Completed 200 OK in 169ms (Views: 139.2ms | ActiveRecord: 18.2ms)
+
+

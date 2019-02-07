@@ -25,5 +25,9 @@ class MyMonster < ApplicationRecord
   end
 
   belongs_to :monster, :class_name => 'Monster'
+  belongs_to :skill1, :class_name => 'Skill'
+  belongs_to :skill2, :class_name => 'Skill'
+  belongs_to :skill3, :class_name => 'Skill'
+  belongs_to :skill4, :class_name => 'Skill'
 
 end

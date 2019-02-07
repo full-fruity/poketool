@@ -13,4 +13,9 @@ class Type < ApplicationRecord
   # has_many :weaking_to_type,   class_name: 'WeakPoint', foreign_key: 'to_type_id'
   has_many :invalids, through: :invaliding_from_type, source: 'to_type'
   # has_many :weaked_to_type,   through: :weaking_to_type,   source: 'from_type'
+
+
+  has_many :skill, class_name: 'Skill', foreign_key: 'type_id'
+  has_many :monster, class_name: "Monster", foreign_key: 'type1_id'
+  has_many :monster, class_name: "Monster", foreign_key: 'type2_id'
 end

@@ -1,4 +1,6 @@
 .bundle/
+tmp/
+log/
 
 *.rbc
 capybara-*.html

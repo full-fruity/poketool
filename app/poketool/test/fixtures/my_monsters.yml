@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: MyString
+  monster: MyString
+  nicname: MyString
+  personality: MyString
+  individual_hp: 1
+  individual_atk: 1
+  individual_blk: 1
+  individual_ctc: 1
+  individual_def: 1
+  individual_spd: 1
+  effort_hp: 1
+  effort_atk: 1
+  effort_blk: 1
+  effort_ctc: 1
+  effort_def: 1
+  effort_spd: 1
+  skill1: MyString
+  skill2: MyString
+  skill3: MyString
+  skill4: MyString
+
+two:
+  user: MyString
+  monster: MyString
+  nicname: MyString
+  personality: MyString
+  individual_hp: 1
+  individual_atk: 1
+  individual_blk: 1
+  individual_ctc: 1
+  individual_def: 1
+  individual_spd: 1
+  effort_hp: 1
+  effort_atk: 1
+  effort_blk: 1
+  effort_ctc: 1
+  effort_def: 1
+  effort_spd: 1
+  skill1: MyString
+  skill2: MyString
+  skill3: MyString
+  skill4: MyString

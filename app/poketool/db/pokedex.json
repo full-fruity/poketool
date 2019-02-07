@@ -7,8 +7,8 @@
       "chinese": "妙蛙种子"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 45,
@@ -27,8 +27,8 @@
       "chinese": "妙蛙草"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 60,
@@ -47,8 +47,8 @@
       "chinese": "妙蛙花"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 80,
@@ -67,7 +67,7 @@
       "chinese": "小火龙"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 39,
@@ -86,7 +86,7 @@
       "chinese": "火恐龙"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 58,
@@ -105,8 +105,8 @@
       "chinese": "喷火龙"
     },
     "type": [
-      "fire",
-      "flying"
+      1,
+      8
     ],
     "base": {
       "hp": 78,
@@ -125,7 +125,7 @@
       "chinese": "杰尼龟"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 44,
@@ -144,7 +144,7 @@
       "chinese": "卡咪龟"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 59,
@@ -163,7 +163,7 @@
       "chinese": "水箭龟"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 79,
@@ -182,7 +182,7 @@
       "chinese": "绿毛虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 45,
@@ -201,7 +201,7 @@
       "chinese": "铁甲蛹"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 50,
@@ -220,8 +220,8 @@
       "chinese": "巴大蝶"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 60,
@@ -240,8 +240,8 @@
       "chinese": "独角虫"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 40,
@@ -260,8 +260,8 @@
       "chinese": "铁壳蛹"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 45,
@@ -280,8 +280,8 @@
       "chinese": "大针蜂"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 65,
@@ -300,8 +300,8 @@
       "chinese": "波波"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 40,
@@ -320,8 +320,8 @@
       "chinese": "比比鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 63,
@@ -340,8 +340,8 @@
       "chinese": "大比鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 83,
@@ -360,7 +360,7 @@
       "chinese": "小拉达"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 30,
@@ -379,7 +379,7 @@
       "chinese": "拉达"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 55,
@@ -398,8 +398,8 @@
       "chinese": "烈雀"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 40,
@@ -418,8 +418,8 @@
       "chinese": "大嘴雀"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 65,
@@ -438,7 +438,7 @@
       "chinese": "阿柏蛇"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 35,
@@ -457,7 +457,7 @@
       "chinese": "阿柏怪"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 60,
@@ -476,7 +476,7 @@
       "chinese": "皮卡丘"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 35,
@@ -495,7 +495,7 @@
       "chinese": "雷丘"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 60,
@@ -514,7 +514,7 @@
       "chinese": "穿山鼠"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 50,
@@ -533,7 +533,7 @@
       "chinese": "穿山王"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 75,
@@ -552,7 +552,7 @@
       "chinese": "尼多兰"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 55,
@@ -571,7 +571,7 @@
       "chinese": "尼多娜"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 70,
@@ -590,8 +590,8 @@
       "chinese": "尼多后"
     },
     "type": [
-      "poison",
-      "ground"
+      9,
+      10
     ],
     "base": {
       "hp": 90,
@@ -610,7 +610,7 @@
       "chinese": "尼多朗"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 46,
@@ -629,7 +629,7 @@
       "chinese": "尼多力诺"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 61,
@@ -648,8 +648,8 @@
       "chinese": "尼多王"
     },
     "type": [
-      "poison",
-      "ground"
+      9,
+      10
     ],
     "base": {
       "hp": 81,
@@ -668,7 +668,7 @@
       "chinese": "皮皮"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 70,
@@ -687,7 +687,7 @@
       "chinese": "皮可西"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 95,
@@ -706,7 +706,7 @@
       "chinese": "六尾"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 38,
@@ -725,7 +725,7 @@
       "chinese": "九尾"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 73,
@@ -744,8 +744,8 @@
       "chinese": "胖丁"
     },
     "type": [
-      "normal",
-      "fairy"
+      5,
+      18
     ],
     "base": {
       "hp": 115,
@@ -764,8 +764,8 @@
       "chinese": "胖可丁"
     },
     "type": [
-      "normal",
-      "fairy"
+      5,
+      18
     ],
     "base": {
       "hp": 140,
@@ -784,8 +784,8 @@
       "chinese": "超音蝠"
     },
     "type": [
-      "poison",
-      "flying"
+      9,
+      8
     ],
     "base": {
       "hp": 40,
@@ -804,8 +804,8 @@
       "chinese": "大嘴蝠"
     },
     "type": [
-      "poison",
-      "flying"
+      9,
+      8
     ],
     "base": {
       "hp": 75,
@@ -824,8 +824,8 @@
       "chinese": "走路草"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 45,
@@ -844,8 +844,8 @@
       "chinese": "臭臭花"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 60,
@@ -864,8 +864,8 @@
       "chinese": "霸王花"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 75,
@@ -884,8 +884,8 @@
       "chinese": "派拉斯"
     },
     "type": [
-      "bug",
-      "grass"
+      4,
+      3
     ],
     "base": {
       "hp": 35,
@@ -904,8 +904,8 @@
       "chinese": "派拉斯特"
     },
     "type": [
-      "bug",
-      "grass"
+      4,
+      3
     ],
     "base": {
       "hp": 60,
@@ -924,8 +924,8 @@
       "chinese": "毛球"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 60,
@@ -944,8 +944,8 @@
       "chinese": "摩鲁蛾"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 70,
@@ -964,7 +964,7 @@
       "chinese": "地鼠"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 10,
@@ -983,7 +983,7 @@
       "chinese": "三地鼠"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 35,
@@ -1002,7 +1002,7 @@
       "chinese": "喵喵"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 40,
@@ -1021,7 +1021,7 @@
       "chinese": "猫老大"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 65,
@@ -1040,7 +1040,7 @@
       "chinese": "可达鸭"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -1059,7 +1059,7 @@
       "chinese": "哥达鸭"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 80,
@@ -1078,7 +1078,7 @@
       "chinese": "猴怪"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 40,
@@ -1097,7 +1097,7 @@
       "chinese": "火暴猴"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 65,
@@ -1116,7 +1116,7 @@
       "chinese": "卡蒂狗"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 55,
@@ -1135,7 +1135,7 @@
       "chinese": "风速狗"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 90,
@@ -1154,7 +1154,7 @@
       "chinese": "蚊香蝌蚪"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 40,
@@ -1173,7 +1173,7 @@
       "chinese": "蚊香君"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 65,
@@ -1192,8 +1192,8 @@
       "chinese": "蚊香泳士"
     },
     "type": [
-      "water",
-      "fighting"
+      2,
+      7
     ],
     "base": {
       "hp": 90,
@@ -1212,7 +1212,7 @@
       "chinese": "凯西"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 25,
@@ -1231,7 +1231,7 @@
       "chinese": "勇基拉"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 40,
@@ -1250,7 +1250,7 @@
       "chinese": "胡地"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 55,
@@ -1269,7 +1269,7 @@
       "chinese": "腕力"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 70,
@@ -1288,7 +1288,7 @@
       "chinese": "豪力"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 80,
@@ -1307,7 +1307,7 @@
       "chinese": "怪力"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 90,
@@ -1326,8 +1326,8 @@
       "chinese": "喇叭芽"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 50,
@@ -1346,8 +1346,8 @@
       "chinese": "口呆花"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 65,
@@ -1366,8 +1366,8 @@
       "chinese": "大食花"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 80,
@@ -1386,8 +1386,8 @@
       "chinese": "玛瑙水母"
     },
     "type": [
-      "water",
-      "poison"
+      2,
+      9
     ],
     "base": {
       "hp": 40,
@@ -1406,8 +1406,8 @@
       "chinese": "毒刺水母"
     },
     "type": [
-      "water",
-      "poison"
+      2,
+      9
     ],
     "base": {
       "hp": 80,
@@ -1426,8 +1426,8 @@
       "chinese": "小拳石"
     },
     "type": [
-      "rock",
-      "ground"
+      11,
+      10
     ],
     "base": {
       "hp": 40,
@@ -1446,8 +1446,8 @@
       "chinese": "隆隆石"
     },
     "type": [
-      "rock",
-      "ground"
+      11,
+      10
     ],
     "base": {
       "hp": 55,
@@ -1466,8 +1466,8 @@
       "chinese": "隆隆岩"
     },
     "type": [
-      "rock",
-      "ground"
+      11,
+      10
     ],
     "base": {
       "hp": 80,
@@ -1486,7 +1486,7 @@
       "chinese": "小火马"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 50,
@@ -1505,7 +1505,7 @@
       "chinese": "烈焰马"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 65,
@@ -1524,8 +1524,8 @@
       "chinese": "呆呆兽"
     },
     "type": [
-      "water",
-      "psychic"
+      2,
+      14
     ],
     "base": {
       "hp": 90,
@@ -1544,8 +1544,8 @@
       "chinese": "呆壳兽"
     },
     "type": [
-      "water",
-      "psychic"
+      2,
+      14
     ],
     "base": {
       "hp": 95,
@@ -1564,8 +1564,8 @@
       "chinese": "小磁怪"
     },
     "type": [
-      "electric",
-      "steel"
+      13,
+      12
     ],
     "base": {
       "hp": 25,
@@ -1584,8 +1584,8 @@
       "chinese": "三合一磁怪"
     },
     "type": [
-      "electric",
-      "steel"
+      13,
+      12
     ],
     "base": {
       "hp": 50,
@@ -1604,8 +1604,8 @@
       "chinese": "大葱鸭"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 52,
@@ -1624,8 +1624,8 @@
       "chinese": "嘟嘟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 35,
@@ -1644,8 +1644,8 @@
       "chinese": "嘟嘟利"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 60,
@@ -1664,7 +1664,7 @@
       "chinese": "小海狮"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 65,
@@ -1683,8 +1683,8 @@
       "chinese": "白海狮"
     },
     "type": [
-      "water",
-      "ice"
+      2,
+      16
     ],
     "base": {
       "hp": 90,
@@ -1703,7 +1703,7 @@
       "chinese": "臭泥"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 80,
@@ -1722,7 +1722,7 @@
       "chinese": "臭臭泥"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 105,
@@ -1741,7 +1741,7 @@
       "chinese": "大舌贝"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 30,
@@ -1760,8 +1760,8 @@
       "chinese": "刺甲贝"
     },
     "type": [
-      "water",
-      "ice"
+      2,
+      16
     ],
     "base": {
       "hp": 50,
@@ -1780,8 +1780,8 @@
       "chinese": "鬼斯"
     },
     "type": [
-      "ghost",
-      "poison"
+      6,
+      9
     ],
     "base": {
       "hp": 30,
@@ -1800,8 +1800,8 @@
       "chinese": "鬼斯通"
     },
     "type": [
-      "ghost",
-      "poison"
+      6,
+      9
     ],
     "base": {
       "hp": 45,
@@ -1820,8 +1820,8 @@
       "chinese": "耿鬼"
     },
     "type": [
-      "ghost",
-      "poison"
+      6,
+      9
     ],
     "base": {
       "hp": 60,
@@ -1840,8 +1840,8 @@
       "chinese": "大岩蛇"
     },
     "type": [
-      "rock",
-      "ground"
+      11,
+      10
     ],
     "base": {
       "hp": 35,
@@ -1860,7 +1860,7 @@
       "chinese": "催眠貘"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 60,
@@ -1879,7 +1879,7 @@
       "chinese": "引梦貘人"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 85,
@@ -1898,7 +1898,7 @@
       "chinese": "大钳蟹"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 30,
@@ -1917,7 +1917,7 @@
       "chinese": "巨钳蟹"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -1936,7 +1936,7 @@
       "chinese": "霹雳电球"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 40,
@@ -1955,7 +1955,7 @@
       "chinese": "顽皮雷弹"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 60,
@@ -1974,8 +1974,8 @@
       "chinese": "蛋蛋"
     },
     "type": [
-      "grass",
-      "psychic"
+      3,
+      14
     ],
     "base": {
       "hp": 60,
@@ -1994,8 +1994,8 @@
       "chinese": "椰蛋树"
     },
     "type": [
-      "grass",
-      "psychic"
+      3,
+      14
     ],
     "base": {
       "hp": 95,
@@ -2014,7 +2014,7 @@
       "chinese": "卡拉卡拉"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 50,
@@ -2033,7 +2033,7 @@
       "chinese": "嘎啦嘎啦"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 60,
@@ -2052,7 +2052,7 @@
       "chinese": "飞腿郎"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 50,
@@ -2071,7 +2071,7 @@
       "chinese": "快拳郎"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 50,
@@ -2090,7 +2090,7 @@
       "chinese": "大舌头"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 90,
@@ -2109,7 +2109,7 @@
       "chinese": "瓦斯弹"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 40,
@@ -2128,7 +2128,7 @@
       "chinese": "双弹瓦斯"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 65,
@@ -2147,8 +2147,8 @@
       "chinese": "独角犀牛"
     },
     "type": [
-      "ground",
-      "rock"
+      10,
+      11
     ],
     "base": {
       "hp": 80,
@@ -2167,8 +2167,8 @@
       "chinese": "钻角犀兽"
     },
     "type": [
-      "ground",
-      "rock"
+      10,
+      11
     ],
     "base": {
       "hp": 105,
@@ -2187,7 +2187,7 @@
       "chinese": "吉利蛋"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 250,
@@ -2206,7 +2206,7 @@
       "chinese": "蔓藤怪"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 65,
@@ -2225,7 +2225,7 @@
       "chinese": "袋兽"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 105,
@@ -2244,7 +2244,7 @@
       "chinese": "墨海马"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 30,
@@ -2263,7 +2263,7 @@
       "chinese": "海刺龙"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -2282,7 +2282,7 @@
       "chinese": "角金鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 45,
@@ -2301,7 +2301,7 @@
       "chinese": "金鱼王"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 80,
@@ -2320,7 +2320,7 @@
       "chinese": "海星星"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 30,
@@ -2339,8 +2339,8 @@
       "chinese": "宝石海星"
     },
     "type": [
-      "water",
-      "psychic"
+      2,
+      14
     ],
     "base": {
       "hp": 60,
@@ -2359,8 +2359,8 @@
       "chinese": "魔墙人偶"
     },
     "type": [
-      "psychic",
-      "fairy"
+      14,
+      18
     ],
     "base": {
       "hp": 40,
@@ -2379,8 +2379,8 @@
       "chinese": "飞天螳螂"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 70,
@@ -2399,8 +2399,8 @@
       "chinese": "迷唇姐"
     },
     "type": [
-      "ice",
-      "psychic"
+      16,
+      14
     ],
     "base": {
       "hp": 65,
@@ -2419,7 +2419,7 @@
       "chinese": "电击兽"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 65,
@@ -2438,7 +2438,7 @@
       "chinese": "鸭嘴火兽"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 65,
@@ -2457,7 +2457,7 @@
       "chinese": "凯罗斯"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 65,
@@ -2476,7 +2476,7 @@
       "chinese": "肯泰罗"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 75,
@@ -2495,7 +2495,7 @@
       "chinese": "鲤鱼王"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 20,
@@ -2514,8 +2514,8 @@
       "chinese": "暴鲤龙"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 95,
@@ -2534,8 +2534,8 @@
       "chinese": "拉普拉斯"
     },
     "type": [
-      "water",
-      "ice"
+      2,
+      16
     ],
     "base": {
       "hp": 130,
@@ -2554,7 +2554,7 @@
       "chinese": "百变怪"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 48,
@@ -2573,7 +2573,7 @@
       "chinese": "伊布"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 55,
@@ -2592,7 +2592,7 @@
       "chinese": "水伊布"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 130,
@@ -2611,7 +2611,7 @@
       "chinese": "雷伊布"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 65,
@@ -2630,7 +2630,7 @@
       "chinese": "火伊布"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 65,
@@ -2649,7 +2649,7 @@
       "chinese": "多边兽"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 65,
@@ -2668,8 +2668,8 @@
       "chinese": "菊石兽"
     },
     "type": [
-      "rock",
-      "water"
+      11,
+      2
     ],
     "base": {
       "hp": 35,
@@ -2688,8 +2688,8 @@
       "chinese": "多刺菊石兽"
     },
     "type": [
-      "rock",
-      "water"
+      11,
+      2
     ],
     "base": {
       "hp": 70,
@@ -2708,8 +2708,8 @@
       "chinese": "化石盔"
     },
     "type": [
-      "rock",
-      "water"
+      11,
+      2
     ],
     "base": {
       "hp": 30,
@@ -2728,8 +2728,8 @@
       "chinese": "镰刀盔"
     },
     "type": [
-      "rock",
-      "water"
+      11,
+      2
     ],
     "base": {
       "hp": 60,
@@ -2748,8 +2748,8 @@
       "chinese": "化石翼龙"
     },
     "type": [
-      "rock",
-      "flying"
+      11,
+      8
     ],
     "base": {
       "hp": 80,
@@ -2768,7 +2768,7 @@
       "chinese": "卡比兽"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 160,
@@ -2787,8 +2787,8 @@
       "chinese": "急冻鸟"
     },
     "type": [
-      "ice",
-      "flying"
+      16,
+      8
     ],
     "base": {
       "hp": 90,
@@ -2807,8 +2807,8 @@
       "chinese": "闪电鸟"
     },
     "type": [
-      "electric",
-      "flying"
+      13,
+      8
     ],
     "base": {
       "hp": 90,
@@ -2827,8 +2827,8 @@
       "chinese": "火焰鸟"
     },
     "type": [
-      "fire",
-      "flying"
+      1,
+      8
     ],
     "base": {
       "hp": 90,
@@ -2847,7 +2847,7 @@
       "chinese": "迷你龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 41,
@@ -2866,7 +2866,7 @@
       "chinese": "哈克龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 61,
@@ -2885,8 +2885,8 @@
       "chinese": "快龙"
     },
     "type": [
-      "dragon",
-      "flying"
+      15,
+      8
     ],
     "base": {
       "hp": 91,
@@ -2905,7 +2905,7 @@
       "chinese": "超梦"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 106,
@@ -2924,7 +2924,7 @@
       "chinese": "梦幻"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 100,
@@ -2943,7 +2943,7 @@
       "chinese": "菊草叶"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 45,
@@ -2962,7 +2962,7 @@
       "chinese": "月桂叶"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 60,
@@ -2981,7 +2981,7 @@
       "chinese": "大竺葵"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 80,
@@ -3000,7 +3000,7 @@
       "chinese": "火球鼠"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 39,
@@ -3019,7 +3019,7 @@
       "chinese": "火岩鼠"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 58,
@@ -3038,7 +3038,7 @@
       "chinese": "火暴兽"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 78,
@@ -3057,7 +3057,7 @@
       "chinese": "小锯鳄"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -3076,7 +3076,7 @@
       "chinese": "蓝鳄"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 65,
@@ -3095,7 +3095,7 @@
       "chinese": "大力鳄"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 85,
@@ -3114,7 +3114,7 @@
       "chinese": "尾立"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 35,
@@ -3133,7 +3133,7 @@
       "chinese": "大尾立"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 85,
@@ -3152,8 +3152,8 @@
       "chinese": "咕咕"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 60,
@@ -3172,8 +3172,8 @@
       "chinese": "猫头夜鹰"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 100,
@@ -3192,8 +3192,8 @@
       "chinese": "芭瓢虫"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 40,
@@ -3212,8 +3212,8 @@
       "chinese": "安瓢虫"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 55,
@@ -3232,8 +3232,8 @@
       "chinese": "圆丝蛛"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 40,
@@ -3252,8 +3252,8 @@
       "chinese": "阿利多斯"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 70,
@@ -3272,8 +3272,8 @@
       "chinese": "叉字蝠"
     },
     "type": [
-      "poison",
-      "flying"
+      9,
+      8
     ],
     "base": {
       "hp": 85,
@@ -3292,8 +3292,8 @@
       "chinese": "灯笼鱼"
     },
     "type": [
-      "water",
-      "electric"
+      2,
+      13
     ],
     "base": {
       "hp": 75,
@@ -3312,8 +3312,8 @@
       "chinese": "电灯怪"
     },
     "type": [
-      "water",
-      "electric"
+      2,
+      13
     ],
     "base": {
       "hp": 125,
@@ -3332,7 +3332,7 @@
       "chinese": "皮丘"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 20,
@@ -3351,7 +3351,7 @@
       "chinese": "皮宝宝"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 50,
@@ -3370,8 +3370,8 @@
       "chinese": "宝宝丁"
     },
     "type": [
-      "normal",
-      "fairy"
+      5,
+      18
     ],
     "base": {
       "hp": 90,
@@ -3390,7 +3390,7 @@
       "chinese": "波克比"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 35,
@@ -3409,8 +3409,8 @@
       "chinese": "波克基古"
     },
     "type": [
-      "fairy",
-      "flying"
+      18,
+      8
     ],
     "base": {
       "hp": 55,
@@ -3429,8 +3429,8 @@
       "chinese": "天然雀"
     },
     "type": [
-      "psychic",
-      "flying"
+      14,
+      8
     ],
     "base": {
       "hp": 40,
@@ -3449,8 +3449,8 @@
       "chinese": "天然鸟"
     },
     "type": [
-      "psychic",
-      "flying"
+      14,
+      8
     ],
     "base": {
       "hp": 65,
@@ -3469,7 +3469,7 @@
       "chinese": "咩利羊"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 55,
@@ -3488,7 +3488,7 @@
       "chinese": "茸茸羊"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 70,
@@ -3507,7 +3507,7 @@
       "chinese": "电龙"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 90,
@@ -3526,7 +3526,7 @@
       "chinese": "美丽花"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 75,
@@ -3545,8 +3545,8 @@
       "chinese": "玛力露"
     },
     "type": [
-      "water",
-      "fairy"
+      2,
+      18
     ],
     "base": {
       "hp": 70,
@@ -3565,8 +3565,8 @@
       "chinese": "玛力露丽"
     },
     "type": [
-      "water",
-      "fairy"
+      2,
+      18
     ],
     "base": {
       "hp": 100,
@@ -3585,7 +3585,7 @@
       "chinese": "树才怪‎"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 70,
@@ -3604,7 +3604,7 @@
       "chinese": "蚊香蛙皇"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 90,
@@ -3623,8 +3623,8 @@
       "chinese": "毽子草"
     },
     "type": [
-      "grass",
-      "flying"
+      3,
+      8
     ],
     "base": {
       "hp": 35,
@@ -3643,8 +3643,8 @@
       "chinese": "毽子花"
     },
     "type": [
-      "grass",
-      "flying"
+      3,
+      8
     ],
     "base": {
       "hp": 55,
@@ -3663,8 +3663,8 @@
       "chinese": "毽子棉"
     },
     "type": [
-      "grass",
-      "flying"
+      3,
+      8
     ],
     "base": {
       "hp": 75,
@@ -3683,7 +3683,7 @@
       "chinese": "长尾怪手"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 55,
@@ -3702,7 +3702,7 @@
       "chinese": "向日种子"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 30,
@@ -3721,7 +3721,7 @@
       "chinese": "向日花怪"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 75,
@@ -3740,8 +3740,8 @@
       "chinese": "蜻蜻蜓"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 65,
@@ -3760,8 +3760,8 @@
       "chinese": "乌波"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 55,
@@ -3780,8 +3780,8 @@
       "chinese": "沼王"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 95,
@@ -3800,7 +3800,7 @@
       "chinese": "太阳伊布"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 65,
@@ -3819,7 +3819,7 @@
       "chinese": "月亮伊布"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 95,
@@ -3838,8 +3838,8 @@
       "chinese": "黑暗鸦"
     },
     "type": [
-      "dark",
-      "flying"
+      17,
+      8
     ],
     "base": {
       "hp": 60,
@@ -3858,8 +3858,8 @@
       "chinese": "呆呆王"
     },
     "type": [
-      "water",
-      "psychic"
+      2,
+      14
     ],
     "base": {
       "hp": 95,
@@ -3878,7 +3878,7 @@
       "chinese": "梦妖"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 60,
@@ -3897,7 +3897,7 @@
       "chinese": "未知图腾"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 48,
@@ -3916,7 +3916,7 @@
       "chinese": "果然翁"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 190,
@@ -3935,8 +3935,8 @@
       "chinese": "麒麟奇"
     },
     "type": [
-      "normal",
-      "psychic"
+      5,
+      14
     ],
     "base": {
       "hp": 70,
@@ -3955,7 +3955,7 @@
       "chinese": "榛果球"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 50,
@@ -3974,8 +3974,8 @@
       "chinese": "佛烈托斯"
     },
     "type": [
-      "bug",
-      "steel"
+      4,
+      12
     ],
     "base": {
       "hp": 75,
@@ -3994,7 +3994,7 @@
       "chinese": "土龙弟弟"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 100,
@@ -4013,8 +4013,8 @@
       "chinese": "天蝎"
     },
     "type": [
-      "ground",
-      "flying"
+      10,
+      8
     ],
     "base": {
       "hp": 65,
@@ -4033,8 +4033,8 @@
       "chinese": "大钢蛇"
     },
     "type": [
-      "steel",
-      "ground"
+      12,
+      10
     ],
     "base": {
       "hp": 75,
@@ -4053,7 +4053,7 @@
       "chinese": "布鲁"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 60,
@@ -4072,7 +4072,7 @@
       "chinese": "布鲁皇"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 90,
@@ -4091,8 +4091,8 @@
       "chinese": "千针鱼"
     },
     "type": [
-      "water",
-      "poison"
+      2,
+      9
     ],
     "base": {
       "hp": 65,
@@ -4111,8 +4111,8 @@
       "chinese": "巨钳螳螂"
     },
     "type": [
-      "bug",
-      "steel"
+      4,
+      12
     ],
     "base": {
       "hp": 70,
@@ -4131,8 +4131,8 @@
       "chinese": "壶壶"
     },
     "type": [
-      "bug",
-      "rock"
+      4,
+      11
     ],
     "base": {
       "hp": 20,
@@ -4151,8 +4151,8 @@
       "chinese": "赫拉克罗斯"
     },
     "type": [
-      "bug",
-      "fighting"
+      4,
+      7
     ],
     "base": {
       "hp": 80,
@@ -4171,8 +4171,8 @@
       "chinese": "狃拉"
     },
     "type": [
-      "dark",
-      "ice"
+      17,
+      16
     ],
     "base": {
       "hp": 55,
@@ -4191,7 +4191,7 @@
       "chinese": "熊宝宝"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 60,
@@ -4210,7 +4210,7 @@
       "chinese": "圈圈熊"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 90,
@@ -4229,7 +4229,7 @@
       "chinese": "熔岩虫"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 40,
@@ -4248,8 +4248,8 @@
       "chinese": "熔岩蜗牛"
     },
     "type": [
-      "fire",
-      "rock"
+      1,
+      11
     ],
     "base": {
       "hp": 60,
@@ -4268,8 +4268,8 @@
       "chinese": "小山猪"
     },
     "type": [
-      "ice",
-      "ground"
+      16,
+      10
     ],
     "base": {
       "hp": 50,
@@ -4288,8 +4288,8 @@
       "chinese": "长毛猪"
     },
     "type": [
-      "ice",
-      "ground"
+      16,
+      10
     ],
     "base": {
       "hp": 100,
@@ -4308,8 +4308,8 @@
       "chinese": "太阳珊瑚"
     },
     "type": [
-      "water",
-      "rock"
+      2,
+      11
     ],
     "base": {
       "hp": 65,
@@ -4328,7 +4328,7 @@
       "chinese": "铁炮鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 35,
@@ -4347,7 +4347,7 @@
       "chinese": "章鱼桶"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 75,
@@ -4366,8 +4366,8 @@
       "chinese": "信使鸟"
     },
     "type": [
-      "ice",
-      "flying"
+      16,
+      8
     ],
     "base": {
       "hp": 45,
@@ -4386,8 +4386,8 @@
       "chinese": "巨翅飞鱼"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 85,
@@ -4406,8 +4406,8 @@
       "chinese": "盔甲鸟"
     },
     "type": [
-      "steel",
-      "flying"
+      12,
+      8
     ],
     "base": {
       "hp": 65,
@@ -4426,8 +4426,8 @@
       "chinese": "戴鲁比"
     },
     "type": [
-      "dark",
-      "fire"
+      17,
+      1
     ],
     "base": {
       "hp": 45,
@@ -4446,8 +4446,8 @@
       "chinese": "黑鲁加"
     },
     "type": [
-      "dark",
-      "fire"
+      17,
+      1
     ],
     "base": {
       "hp": 75,
@@ -4466,8 +4466,8 @@
       "chinese": "刺龙王"
     },
     "type": [
-      "water",
-      "dragon"
+      2,
+      15
     ],
     "base": {
       "hp": 75,
@@ -4486,7 +4486,7 @@
       "chinese": "小小象"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 90,
@@ -4505,7 +4505,7 @@
       "chinese": "顿甲"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 90,
@@ -4524,7 +4524,7 @@
       "chinese": "多边兽ⅱ"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 85,
@@ -4543,7 +4543,7 @@
       "chinese": "惊角鹿"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 73,
@@ -4562,7 +4562,7 @@
       "chinese": "图图犬"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 55,
@@ -4581,7 +4581,7 @@
       "chinese": "无畏小子"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 35,
@@ -4600,7 +4600,7 @@
       "chinese": "战舞郎"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 50,
@@ -4619,8 +4619,8 @@
       "chinese": "迷唇娃"
     },
     "type": [
-      "ice",
-      "psychic"
+      16,
+      14
     ],
     "base": {
       "hp": 45,
@@ -4639,7 +4639,7 @@
       "chinese": "电击怪"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 45,
@@ -4658,7 +4658,7 @@
       "chinese": "鸭嘴宝宝"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 45,
@@ -4677,7 +4677,7 @@
       "chinese": "大奶罐"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 95,
@@ -4696,7 +4696,7 @@
       "chinese": "幸福蛋"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 255,
@@ -4715,7 +4715,7 @@
       "chinese": "雷公"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 90,
@@ -4734,7 +4734,7 @@
       "chinese": "炎帝"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 115,
@@ -4753,7 +4753,7 @@
       "chinese": "水君"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 100,
@@ -4772,8 +4772,8 @@
       "chinese": "幼基拉斯"
     },
     "type": [
-      "rock",
-      "ground"
+      11,
+      10
     ],
     "base": {
       "hp": 50,
@@ -4792,8 +4792,8 @@
       "chinese": "沙基拉斯"
     },
     "type": [
-      "rock",
-      "ground"
+      11,
+      10
     ],
     "base": {
       "hp": 70,
@@ -4812,8 +4812,8 @@
       "chinese": "班基拉斯"
     },
     "type": [
-      "rock",
-      "dark"
+      11,
+      17
     ],
     "base": {
       "hp": 100,
@@ -4832,8 +4832,8 @@
       "chinese": "洛奇亚"
     },
     "type": [
-      "psychic",
-      "flying"
+      14,
+      8
     ],
     "base": {
       "hp": 106,
@@ -4852,8 +4852,8 @@
       "chinese": "凤王"
     },
     "type": [
-      "fire",
-      "flying"
+      1,
+      8
     ],
     "base": {
       "hp": 106,
@@ -4872,8 +4872,8 @@
       "chinese": "时拉比"
     },
     "type": [
-      "psychic",
-      "grass"
+      14,
+      3
     ],
     "base": {
       "hp": 100,
@@ -4892,7 +4892,7 @@
       "chinese": "木守宫"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 40,
@@ -4911,7 +4911,7 @@
       "chinese": "森林蜥蜴"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 50,
@@ -4930,7 +4930,7 @@
       "chinese": "蜥蜴王"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 70,
@@ -4949,7 +4949,7 @@
       "chinese": "火稚鸡"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 45,
@@ -4968,8 +4968,8 @@
       "chinese": "力壮鸡"
     },
     "type": [
-      "fire",
-      "fighting"
+      1,
+      7
     ],
     "base": {
       "hp": 60,
@@ -4988,8 +4988,8 @@
       "chinese": "火焰鸡"
     },
     "type": [
-      "fire",
-      "fighting"
+      1,
+      7
     ],
     "base": {
       "hp": 80,
@@ -5008,7 +5008,7 @@
       "chinese": "水跃鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -5027,8 +5027,8 @@
       "chinese": "沼跃鱼"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 70,
@@ -5047,8 +5047,8 @@
       "chinese": "巨沼怪"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 100,
@@ -5067,7 +5067,7 @@
       "chinese": "土狼犬"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 35,
@@ -5086,7 +5086,7 @@
       "chinese": "大狼犬"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 70,
@@ -5105,7 +5105,7 @@
       "chinese": "蛇纹熊"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 38,
@@ -5124,7 +5124,7 @@
       "chinese": "直冲熊"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 78,
@@ -5143,7 +5143,7 @@
       "chinese": "刺尾虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 45,
@@ -5162,7 +5162,7 @@
       "chinese": "甲壳茧"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 50,
@@ -5181,8 +5181,8 @@
       "chinese": "狩猎凤蝶"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 60,
@@ -5201,7 +5201,7 @@
       "chinese": "盾甲茧"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 50,
@@ -5220,8 +5220,8 @@
       "chinese": "毒粉蛾"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 60,
@@ -5240,8 +5240,8 @@
       "chinese": "莲叶童子"
     },
     "type": [
-      "water",
-      "grass"
+      2,
+      3
     ],
     "base": {
       "hp": 40,
@@ -5260,8 +5260,8 @@
       "chinese": "莲帽小童"
     },
     "type": [
-      "water",
-      "grass"
+      2,
+      3
     ],
     "base": {
       "hp": 60,
@@ -5280,8 +5280,8 @@
       "chinese": "乐天河童"
     },
     "type": [
-      "water",
-      "grass"
+      2,
+      3
     ],
     "base": {
       "hp": 80,
@@ -5300,7 +5300,7 @@
       "chinese": "橡实果"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 40,
@@ -5319,8 +5319,8 @@
       "chinese": "长鼻叶"
     },
     "type": [
-      "grass",
-      "dark"
+      3,
+      17
     ],
     "base": {
       "hp": 70,
@@ -5339,8 +5339,8 @@
       "chinese": "狡猾天狗"
     },
     "type": [
-      "grass",
-      "dark"
+      3,
+      17
     ],
     "base": {
       "hp": 90,
@@ -5359,8 +5359,8 @@
       "chinese": "傲骨燕"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 40,
@@ -5379,8 +5379,8 @@
       "chinese": "大王燕"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 60,
@@ -5399,8 +5399,8 @@
       "chinese": "长翅鸥"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 40,
@@ -5419,8 +5419,8 @@
       "chinese": "大嘴鸥"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 60,
@@ -5439,8 +5439,8 @@
       "chinese": "拉鲁拉丝"
     },
     "type": [
-      "psychic",
-      "fairy"
+      14,
+      18
     ],
     "base": {
       "hp": 28,
@@ -5459,8 +5459,8 @@
       "chinese": "奇鲁莉安"
     },
     "type": [
-      "psychic",
-      "fairy"
+      14,
+      18
     ],
     "base": {
       "hp": 38,
@@ -5479,8 +5479,8 @@
       "chinese": "沙奈朵"
     },
     "type": [
-      "psychic",
-      "fairy"
+      14,
+      18
     ],
     "base": {
       "hp": 68,
@@ -5499,8 +5499,8 @@
       "chinese": "溜溜糖球"
     },
     "type": [
-      "bug",
-      "water"
+      4,
+      2
     ],
     "base": {
       "hp": 40,
@@ -5519,8 +5519,8 @@
       "chinese": "雨翅蛾"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 70,
@@ -5539,7 +5539,7 @@
       "chinese": "蘑蘑菇"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 60,
@@ -5558,8 +5558,8 @@
       "chinese": "斗笠菇"
     },
     "type": [
-      "grass",
-      "fighting"
+      3,
+      7
     ],
     "base": {
       "hp": 60,
@@ -5578,7 +5578,7 @@
       "chinese": "懒人獭"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 60,
@@ -5597,7 +5597,7 @@
       "chinese": "过动猿"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 80,
@@ -5616,7 +5616,7 @@
       "chinese": "请假王"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 150,
@@ -5635,8 +5635,8 @@
       "chinese": "土居忍士"
     },
     "type": [
-      "bug",
-      "ground"
+      4,
+      10
     ],
     "base": {
       "hp": 31,
@@ -5655,8 +5655,8 @@
       "chinese": "铁面忍者"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 61,
@@ -5675,8 +5675,8 @@
       "chinese": "脱壳忍者"
     },
     "type": [
-      "bug",
-      "ghost"
+      4,
+      6
     ],
     "base": {
       "hp": 1,
@@ -5695,7 +5695,7 @@
       "chinese": "咕妞妞"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 64,
@@ -5714,7 +5714,7 @@
       "chinese": "吼爆弹"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 84,
@@ -5733,7 +5733,7 @@
       "chinese": "爆音怪"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 104,
@@ -5752,7 +5752,7 @@
       "chinese": "幕下力士"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 72,
@@ -5771,7 +5771,7 @@
       "chinese": "铁掌力士"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 144,
@@ -5790,8 +5790,8 @@
       "chinese": "露力丽"
     },
     "type": [
-      "normal",
-      "fairy"
+      5,
+      18
     ],
     "base": {
       "hp": 50,
@@ -5810,7 +5810,7 @@
       "chinese": "朝北鼻"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 30,
@@ -5829,7 +5829,7 @@
       "chinese": "向尾喵"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 50,
@@ -5848,7 +5848,7 @@
       "chinese": "优雅猫"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 70,
@@ -5867,8 +5867,8 @@
       "chinese": "勾魂眼"
     },
     "type": [
-      "dark",
-      "ghost"
+      17,
+      6
     ],
     "base": {
       "hp": 50,
@@ -5887,8 +5887,8 @@
       "chinese": "大嘴娃"
     },
     "type": [
-      "steel",
-      "fairy"
+      12,
+      18
     ],
     "base": {
       "hp": 50,
@@ -5907,8 +5907,8 @@
       "chinese": "可可多拉"
     },
     "type": [
-      "steel",
-      "rock"
+      12,
+      11
     ],
     "base": {
       "hp": 50,
@@ -5927,8 +5927,8 @@
       "chinese": "可多拉"
     },
     "type": [
-      "steel",
-      "rock"
+      12,
+      11
     ],
     "base": {
       "hp": 60,
@@ -5947,8 +5947,8 @@
       "chinese": "波士可多拉"
     },
     "type": [
-      "steel",
-      "rock"
+      12,
+      11
     ],
     "base": {
       "hp": 70,
@@ -5967,8 +5967,8 @@
       "chinese": "玛沙那"
     },
     "type": [
-      "fighting",
-      "psychic"
+      7,
+      14
     ],
     "base": {
       "hp": 30,
@@ -5987,8 +5987,8 @@
       "chinese": "恰雷姆"
     },
     "type": [
-      "fighting",
-      "psychic"
+      7,
+      14
     ],
     "base": {
       "hp": 60,
@@ -6007,7 +6007,7 @@
       "chinese": "落雷兽"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 40,
@@ -6026,7 +6026,7 @@
       "chinese": "雷电兽"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 70,
@@ -6045,7 +6045,7 @@
       "chinese": "正电拍拍"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 60,
@@ -6064,7 +6064,7 @@
       "chinese": "负电拍拍"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 60,
@@ -6083,7 +6083,7 @@
       "chinese": "电萤虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 65,
@@ -6102,7 +6102,7 @@
       "chinese": "甜甜萤"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 65,
@@ -6121,8 +6121,8 @@
       "chinese": "毒蔷薇"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 50,
@@ -6141,7 +6141,7 @@
       "chinese": "溶食兽"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 70,
@@ -6160,7 +6160,7 @@
       "chinese": "吞食兽"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 100,
@@ -6179,8 +6179,8 @@
       "chinese": "利牙鱼"
     },
     "type": [
-      "water",
-      "dark"
+      2,
+      17
     ],
     "base": {
       "hp": 45,
@@ -6199,8 +6199,8 @@
       "chinese": "巨牙鲨"
     },
     "type": [
-      "water",
-      "dark"
+      2,
+      17
     ],
     "base": {
       "hp": 70,
@@ -6219,7 +6219,7 @@
       "chinese": "吼吼鲸"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 130,
@@ -6238,7 +6238,7 @@
       "chinese": "吼鲸王"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 170,
@@ -6257,8 +6257,8 @@
       "chinese": "呆火驼"
     },
     "type": [
-      "fire",
-      "ground"
+      1,
+      10
     ],
     "base": {
       "hp": 60,
@@ -6277,8 +6277,8 @@
       "chinese": "喷火驼"
     },
     "type": [
-      "fire",
-      "ground"
+      1,
+      10
     ],
     "base": {
       "hp": 70,
@@ -6297,7 +6297,7 @@
       "chinese": "煤炭龟"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 70,
@@ -6316,7 +6316,7 @@
       "chinese": "跳跳猪"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 60,
@@ -6335,7 +6335,7 @@
       "chinese": "噗噗猪"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 80,
@@ -6354,7 +6354,7 @@
       "chinese": "晃晃斑"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 60,
@@ -6373,7 +6373,7 @@
       "chinese": "大颚蚁"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 45,
@@ -6392,8 +6392,8 @@
       "chinese": "超音波幼虫"
     },
     "type": [
-      "ground",
-      "dragon"
+      10,
+      15
     ],
     "base": {
       "hp": 50,
@@ -6412,8 +6412,8 @@
       "chinese": "沙漠蜻蜓"
     },
     "type": [
-      "ground",
-      "dragon"
+      10,
+      15
     ],
     "base": {
       "hp": 80,
@@ -6432,7 +6432,7 @@
       "chinese": "刺球仙人掌"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 50,
@@ -6451,8 +6451,8 @@
       "chinese": "梦歌仙人掌"
     },
     "type": [
-      "grass",
-      "dark"
+      3,
+      17
     ],
     "base": {
       "hp": 70,
@@ -6471,8 +6471,8 @@
       "chinese": "青绵鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 45,
@@ -6491,8 +6491,8 @@
       "chinese": "七夕青鸟"
     },
     "type": [
-      "dragon",
-      "flying"
+      15,
+      8
     ],
     "base": {
       "hp": 75,
@@ -6511,7 +6511,7 @@
       "chinese": "猫鼬斩"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 73,
@@ -6530,7 +6530,7 @@
       "chinese": "饭匙蛇"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 73,
@@ -6549,8 +6549,8 @@
       "chinese": "月石"
     },
     "type": [
-      "rock",
-      "psychic"
+      11,
+      14
     ],
     "base": {
       "hp": 90,
@@ -6569,8 +6569,8 @@
       "chinese": "太阳岩"
     },
     "type": [
-      "rock",
-      "psychic"
+      11,
+      14
     ],
     "base": {
       "hp": 90,
@@ -6589,8 +6589,8 @@
       "chinese": "泥泥鳅"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 50,
@@ -6609,8 +6609,8 @@
       "chinese": "鲶鱼王"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 110,
@@ -6629,7 +6629,7 @@
       "chinese": "龙虾小兵"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 43,
@@ -6648,8 +6648,8 @@
       "chinese": "铁螯龙虾"
     },
     "type": [
-      "water",
-      "dark"
+      2,
+      17
     ],
     "base": {
       "hp": 63,
@@ -6668,8 +6668,8 @@
       "chinese": "天秤偶"
     },
     "type": [
-      "ground",
-      "psychic"
+      10,
+      14
     ],
     "base": {
       "hp": 40,
@@ -6688,8 +6688,8 @@
       "chinese": "念力土偶"
     },
     "type": [
-      "ground",
-      "psychic"
+      10,
+      14
     ],
     "base": {
       "hp": 60,
@@ -6708,8 +6708,8 @@
       "chinese": "触手百合"
     },
     "type": [
-      "rock",
-      "grass"
+      11,
+      3
     ],
     "base": {
       "hp": 66,
@@ -6728,8 +6728,8 @@
       "chinese": "摇篮百合"
     },
     "type": [
-      "rock",
-      "grass"
+      11,
+      3
     ],
     "base": {
       "hp": 86,
@@ -6748,8 +6748,8 @@
       "chinese": "太古羽虫"
     },
     "type": [
-      "rock",
-      "bug"
+      11,
+      4
     ],
     "base": {
       "hp": 45,
@@ -6768,8 +6768,8 @@
       "chinese": "太古盔甲"
     },
     "type": [
-      "rock",
-      "bug"
+      11,
+      4
     ],
     "base": {
       "hp": 75,
@@ -6788,7 +6788,7 @@
       "chinese": "丑丑鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 20,
@@ -6807,7 +6807,7 @@
       "chinese": "美纳斯"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 95,
@@ -6826,7 +6826,7 @@
       "chinese": "飘浮泡泡"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 70,
@@ -6845,7 +6845,7 @@
       "chinese": "变隐龙"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 60,
@@ -6864,7 +6864,7 @@
       "chinese": "怨影娃娃"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 44,
@@ -6883,7 +6883,7 @@
       "chinese": "诅咒娃娃"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 64,
@@ -6902,7 +6902,7 @@
       "chinese": "夜巡灵"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 20,
@@ -6921,7 +6921,7 @@
       "chinese": "彷徨夜灵"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 40,
@@ -6940,8 +6940,8 @@
       "chinese": "热带龙"
     },
     "type": [
-      "grass",
-      "flying"
+      3,
+      8
     ],
     "base": {
       "hp": 99,
@@ -6960,7 +6960,7 @@
       "chinese": "风铃铃"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 75,
@@ -6979,7 +6979,7 @@
       "chinese": "阿勃梭鲁"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 65,
@@ -6998,7 +6998,7 @@
       "chinese": "小果然"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 95,
@@ -7017,7 +7017,7 @@
       "chinese": "雪童子"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 50,
@@ -7036,7 +7036,7 @@
       "chinese": "冰鬼护"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 80,
@@ -7055,8 +7055,8 @@
       "chinese": "海豹球"
     },
     "type": [
-      "ice",
-      "water"
+      16,
+      2
     ],
     "base": {
       "hp": 70,
@@ -7075,8 +7075,8 @@
       "chinese": "海魔狮"
     },
     "type": [
-      "ice",
-      "water"
+      16,
+      2
     ],
     "base": {
       "hp": 90,
@@ -7095,8 +7095,8 @@
       "chinese": "帝牙海狮"
     },
     "type": [
-      "ice",
-      "water"
+      16,
+      2
     ],
     "base": {
       "hp": 110,
@@ -7115,7 +7115,7 @@
       "chinese": "珍珠贝"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 35,
@@ -7134,7 +7134,7 @@
       "chinese": "猎斑鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -7153,7 +7153,7 @@
       "chinese": "樱花鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -7172,8 +7172,8 @@
       "chinese": "古空棘鱼"
     },
     "type": [
-      "water",
-      "rock"
+      2,
+      11
     ],
     "base": {
       "hp": 100,
@@ -7192,7 +7192,7 @@
       "chinese": "爱心鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 43,
@@ -7211,7 +7211,7 @@
       "chinese": "宝贝龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 45,
@@ -7230,7 +7230,7 @@
       "chinese": "甲壳龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 65,
@@ -7249,8 +7249,8 @@
       "chinese": "暴飞龙"
     },
     "type": [
-      "dragon",
-      "flying"
+      15,
+      8
     ],
     "base": {
       "hp": 95,
@@ -7269,8 +7269,8 @@
       "chinese": "铁哑铃"
     },
     "type": [
-      "steel",
-      "psychic"
+      12,
+      14
     ],
     "base": {
       "hp": 40,
@@ -7289,8 +7289,8 @@
       "chinese": "金属怪"
     },
     "type": [
-      "steel",
-      "psychic"
+      12,
+      14
     ],
     "base": {
       "hp": 60,
@@ -7309,8 +7309,8 @@
       "chinese": "巨金怪"
     },
     "type": [
-      "steel",
-      "psychic"
+      12,
+      14
     ],
     "base": {
       "hp": 80,
@@ -7329,7 +7329,7 @@
       "chinese": "雷吉洛克"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 80,
@@ -7348,7 +7348,7 @@
       "chinese": "雷吉艾斯"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 80,
@@ -7367,7 +7367,7 @@
       "chinese": "雷吉斯奇鲁"
     },
     "type": [
-      "steel"
+      12
     ],
     "base": {
       "hp": 80,
@@ -7386,8 +7386,8 @@
       "chinese": "拉帝亚斯"
     },
     "type": [
-      "dragon",
-      "psychic"
+      15,
+      14
     ],
     "base": {
       "hp": 80,
@@ -7406,8 +7406,8 @@
       "chinese": "拉帝欧斯"
     },
     "type": [
-      "dragon",
-      "psychic"
+      15,
+      14
     ],
     "base": {
       "hp": 80,
@@ -7426,7 +7426,7 @@
       "chinese": "盖欧卡"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 100,
@@ -7445,7 +7445,7 @@
       "chinese": "固拉多"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 100,
@@ -7464,8 +7464,8 @@
       "chinese": "烈空坐"
     },
     "type": [
-      "dragon",
-      "flying"
+      15,
+      8
     ],
     "base": {
       "hp": 105,
@@ -7484,8 +7484,8 @@
       "chinese": "基拉祈"
     },
     "type": [
-      "steel",
-      "psychic"
+      12,
+      14
     ],
     "base": {
       "hp": 100,
@@ -7504,7 +7504,7 @@
       "chinese": "代欧奇希斯"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 50,
@@ -7523,7 +7523,7 @@
       "chinese": "草苗龟"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 55,
@@ -7542,7 +7542,7 @@
       "chinese": "树林龟"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 75,
@@ -7561,8 +7561,8 @@
       "chinese": "土台龟"
     },
     "type": [
-      "grass",
-      "ground"
+      3,
+      10
     ],
     "base": {
       "hp": 95,
@@ -7581,7 +7581,7 @@
       "chinese": "小火焰猴"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 44,
@@ -7600,8 +7600,8 @@
       "chinese": "猛火猴"
     },
     "type": [
-      "fire",
-      "fighting"
+      1,
+      7
     ],
     "base": {
       "hp": 64,
@@ -7620,8 +7620,8 @@
       "chinese": "烈焰猴"
     },
     "type": [
-      "fire",
-      "fighting"
+      1,
+      7
     ],
     "base": {
       "hp": 76,
@@ -7640,7 +7640,7 @@
       "chinese": "波加曼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 53,
@@ -7659,7 +7659,7 @@
       "chinese": "波皇子"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 64,
@@ -7678,8 +7678,8 @@
       "chinese": "帝王拿波"
     },
     "type": [
-      "water",
-      "steel"
+      2,
+      12
     ],
     "base": {
       "hp": 84,
@@ -7698,8 +7698,8 @@
       "chinese": "姆克儿"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 40,
@@ -7718,8 +7718,8 @@
       "chinese": "姆克鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 55,
@@ -7738,8 +7738,8 @@
       "chinese": "姆克鹰"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 85,
@@ -7758,7 +7758,7 @@
       "chinese": "大牙狸"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 59,
@@ -7777,8 +7777,8 @@
       "chinese": "大尾狸"
     },
     "type": [
-      "normal",
-      "water"
+      5,
+      2
     ],
     "base": {
       "hp": 79,
@@ -7797,7 +7797,7 @@
       "chinese": "圆法师"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 37,
@@ -7816,7 +7816,7 @@
       "chinese": "音箱蟀"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 77,
@@ -7835,7 +7835,7 @@
       "chinese": "小猫怪"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 45,
@@ -7854,7 +7854,7 @@
       "chinese": "勒克猫"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 60,
@@ -7873,7 +7873,7 @@
       "chinese": "伦琴猫"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 80,
@@ -7892,8 +7892,8 @@
       "chinese": "含羞苞"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 40,
@@ -7912,8 +7912,8 @@
       "chinese": "罗丝雷朵"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 60,
@@ -7932,7 +7932,7 @@
       "chinese": "头盖龙"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 67,
@@ -7951,7 +7951,7 @@
       "chinese": "战槌龙"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 97,
@@ -7970,8 +7970,8 @@
       "chinese": "盾甲龙"
     },
     "type": [
-      "rock",
-      "steel"
+      11,
+      12
     ],
     "base": {
       "hp": 30,
@@ -7990,8 +7990,8 @@
       "chinese": "护城龙"
     },
     "type": [
-      "rock",
-      "steel"
+      11,
+      12
     ],
     "base": {
       "hp": 60,
@@ -8010,7 +8010,7 @@
       "chinese": "结草儿"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 40,
@@ -8029,8 +8029,8 @@
       "chinese": "结草贵妇"
     },
     "type": [
-      "bug",
-      "grass"
+      4,
+      3
     ],
     "base": {
       "hp": 60,
@@ -8049,8 +8049,8 @@
       "chinese": "绅士蛾"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 70,
@@ -8069,8 +8069,8 @@
       "chinese": "三蜜蜂"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 30,
@@ -8089,8 +8089,8 @@
       "chinese": "蜂女王"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 70,
@@ -8109,7 +8109,7 @@
       "chinese": "帕奇利兹"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 60,
@@ -8128,7 +8128,7 @@
       "chinese": "泳圈鼬"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -8147,7 +8147,7 @@
       "chinese": "浮潜鼬"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 85,
@@ -8166,7 +8166,7 @@
       "chinese": "樱花宝"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 45,
@@ -8185,7 +8185,7 @@
       "chinese": "樱花儿"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 70,
@@ -8204,7 +8204,7 @@
       "chinese": "无壳海兔"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 76,
@@ -8223,8 +8223,8 @@
       "chinese": "海兔兽"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 111,
@@ -8243,7 +8243,7 @@
       "chinese": "双尾怪手"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 75,
@@ -8262,8 +8262,8 @@
       "chinese": "飘飘球"
     },
     "type": [
-      "ghost",
-      "flying"
+      6,
+      8
     ],
     "base": {
       "hp": 90,
@@ -8282,8 +8282,8 @@
       "chinese": "随风球"
     },
     "type": [
-      "ghost",
-      "flying"
+      6,
+      8
     ],
     "base": {
       "hp": 150,
@@ -8302,7 +8302,7 @@
       "chinese": "卷卷耳"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 55,
@@ -8321,7 +8321,7 @@
       "chinese": "长耳兔"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 65,
@@ -8340,7 +8340,7 @@
       "chinese": "梦妖魔"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 60,
@@ -8359,8 +8359,8 @@
       "chinese": "乌鸦头头"
     },
     "type": [
-      "dark",
-      "flying"
+      17,
+      8
     ],
     "base": {
       "hp": 100,
@@ -8379,7 +8379,7 @@
       "chinese": "魅力喵"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 49,
@@ -8398,7 +8398,7 @@
       "chinese": "东施喵"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 71,
@@ -8417,7 +8417,7 @@
       "chinese": "铃铛响"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 45,
@@ -8436,8 +8436,8 @@
       "chinese": "臭鼬噗"
     },
     "type": [
-      "poison",
-      "dark"
+      9,
+      17
     ],
     "base": {
       "hp": 63,
@@ -8456,8 +8456,8 @@
       "chinese": "坦克臭鼬"
     },
     "type": [
-      "poison",
-      "dark"
+      9,
+      17
     ],
     "base": {
       "hp": 103,
@@ -8476,8 +8476,8 @@
       "chinese": "铜镜怪"
     },
     "type": [
-      "steel",
-      "psychic"
+      12,
+      14
     ],
     "base": {
       "hp": 57,
@@ -8496,8 +8496,8 @@
       "chinese": "青铜钟"
     },
     "type": [
-      "steel",
-      "psychic"
+      12,
+      14
     ],
     "base": {
       "hp": 67,
@@ -8516,7 +8516,7 @@
       "chinese": "盆才怪"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 50,
@@ -8535,8 +8535,8 @@
       "chinese": "魔尼尼"
     },
     "type": [
-      "psychic",
-      "fairy"
+      14,
+      18
     ],
     "base": {
       "hp": 20,
@@ -8555,7 +8555,7 @@
       "chinese": "小福蛋"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 100,
@@ -8574,8 +8574,8 @@
       "chinese": "聒噪鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 76,
@@ -8594,8 +8594,8 @@
       "chinese": "花岩怪"
     },
     "type": [
-      "ghost",
-      "dark"
+      6,
+      17
     ],
     "base": {
       "hp": 50,
@@ -8614,8 +8614,8 @@
       "chinese": "圆陆鲨"
     },
     "type": [
-      "dragon",
-      "ground"
+      15,
+      10
     ],
     "base": {
       "hp": 58,
@@ -8634,8 +8634,8 @@
       "chinese": "尖牙陆鲨"
     },
     "type": [
-      "dragon",
-      "ground"
+      15,
+      10
     ],
     "base": {
       "hp": 68,
@@ -8654,8 +8654,8 @@
       "chinese": "烈咬陆鲨"
     },
     "type": [
-      "dragon",
-      "ground"
+      15,
+      10
     ],
     "base": {
       "hp": 108,
@@ -8674,7 +8674,7 @@
       "chinese": "小卡比兽"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 135,
@@ -8693,7 +8693,7 @@
       "chinese": "利欧路"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 40,
@@ -8712,8 +8712,8 @@
       "chinese": "路卡利欧"
     },
     "type": [
-      "fighting",
-      "steel"
+      7,
+      12
     ],
     "base": {
       "hp": 70,
@@ -8732,7 +8732,7 @@
       "chinese": "沙河马"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 68,
@@ -8751,7 +8751,7 @@
       "chinese": "河马兽"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 108,
@@ -8770,8 +8770,8 @@
       "chinese": "钳尾蝎"
     },
     "type": [
-      "poison",
-      "bug"
+      9,
+      4
     ],
     "base": {
       "hp": 40,
@@ -8790,8 +8790,8 @@
       "chinese": "龙王蝎"
     },
     "type": [
-      "poison",
-      "dark"
+      9,
+      17
     ],
     "base": {
       "hp": 70,
@@ -8810,8 +8810,8 @@
       "chinese": "不良蛙"
     },
     "type": [
-      "poison",
-      "fighting"
+      9,
+      7
     ],
     "base": {
       "hp": 48,
@@ -8830,8 +8830,8 @@
       "chinese": "毒骷蛙"
     },
     "type": [
-      "poison",
-      "fighting"
+      9,
+      7
     ],
     "base": {
       "hp": 83,
@@ -8850,7 +8850,7 @@
       "chinese": "尖牙笼"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 74,
@@ -8869,7 +8869,7 @@
       "chinese": "荧光鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 49,
@@ -8888,7 +8888,7 @@
       "chinese": "霓虹鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 69,
@@ -8907,8 +8907,8 @@
       "chinese": "小球飞鱼"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 45,
@@ -8927,8 +8927,8 @@
       "chinese": "雪笠怪"
     },
     "type": [
-      "grass",
-      "ice"
+      3,
+      16
     ],
     "base": {
       "hp": 60,
@@ -8947,8 +8947,8 @@
       "chinese": "暴雪王"
     },
     "type": [
-      "grass",
-      "ice"
+      3,
+      16
     ],
     "base": {
       "hp": 90,
@@ -8967,8 +8967,8 @@
       "chinese": "玛狃拉"
     },
     "type": [
-      "dark",
-      "ice"
+      17,
+      16
     ],
     "base": {
       "hp": 70,
@@ -8987,8 +8987,8 @@
       "chinese": "自爆磁怪"
     },
     "type": [
-      "electric",
-      "steel"
+      13,
+      12
     ],
     "base": {
       "hp": 70,
@@ -9007,7 +9007,7 @@
       "chinese": "大舌舔"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 110,
@@ -9026,8 +9026,8 @@
       "chinese": "超甲狂犀"
     },
     "type": [
-      "ground",
-      "rock"
+      10,
+      11
     ],
     "base": {
       "hp": 115,
@@ -9046,7 +9046,7 @@
       "chinese": "巨蔓藤"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 100,
@@ -9065,7 +9065,7 @@
       "chinese": "电击魔兽"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 75,
@@ -9084,7 +9084,7 @@
       "chinese": "鸭嘴炎兽"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 75,
@@ -9103,8 +9103,8 @@
       "chinese": "波克基斯"
     },
     "type": [
-      "fairy",
-      "flying"
+      18,
+      8
     ],
     "base": {
       "hp": 85,
@@ -9123,8 +9123,8 @@
       "chinese": "远古巨蜓"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 86,
@@ -9143,7 +9143,7 @@
       "chinese": "叶伊布"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 65,
@@ -9162,7 +9162,7 @@
       "chinese": "冰伊布"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 65,
@@ -9181,8 +9181,8 @@
       "chinese": "天蝎王"
     },
     "type": [
-      "ground",
-      "flying"
+      10,
+      8
     ],
     "base": {
       "hp": 75,
@@ -9201,8 +9201,8 @@
       "chinese": "象牙猪"
     },
     "type": [
-      "ice",
-      "ground"
+      16,
+      10
     ],
     "base": {
       "hp": 110,
@@ -9221,7 +9221,7 @@
       "chinese": "多边兽ｚ"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 85,
@@ -9240,8 +9240,8 @@
       "chinese": "艾路雷朵"
     },
     "type": [
-      "psychic",
-      "fighting"
+      14,
+      7
     ],
     "base": {
       "hp": 68,
@@ -9260,8 +9260,8 @@
       "chinese": "大朝北鼻"
     },
     "type": [
-      "rock",
-      "steel"
+      11,
+      12
     ],
     "base": {
       "hp": 60,
@@ -9280,7 +9280,7 @@
       "chinese": "黑夜魔灵"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 45,
@@ -9299,8 +9299,8 @@
       "chinese": "雪妖女"
     },
     "type": [
-      "ice",
-      "ghost"
+      16,
+      6
     ],
     "base": {
       "hp": 70,
@@ -9319,8 +9319,8 @@
       "chinese": "洛托姆"
     },
     "type": [
-      "electric",
-      "ghost"
+      13,
+      6
     ],
     "base": {
       "hp": 50,
@@ -9339,7 +9339,7 @@
       "chinese": "由克希"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 75,
@@ -9358,7 +9358,7 @@
       "chinese": "艾姆利多"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 80,
@@ -9377,7 +9377,7 @@
       "chinese": "亚克诺姆"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 75,
@@ -9396,8 +9396,8 @@
       "chinese": "帝牙卢卡"
     },
     "type": [
-      "steel",
-      "dragon"
+      12,
+      15
     ],
     "base": {
       "hp": 100,
@@ -9416,8 +9416,8 @@
       "chinese": "帕路奇亚"
     },
     "type": [
-      "water",
-      "dragon"
+      2,
+      15
     ],
     "base": {
       "hp": 90,
@@ -9436,8 +9436,8 @@
       "chinese": "席多蓝恩"
     },
     "type": [
-      "fire",
-      "steel"
+      1,
+      12
     ],
     "base": {
       "hp": 91,
@@ -9456,7 +9456,7 @@
       "chinese": "雷吉奇卡斯"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 110,
@@ -9475,8 +9475,8 @@
       "chinese": "骑拉帝纳"
     },
     "type": [
-      "ghost",
-      "dragon"
+      6,
+      15
     ],
     "base": {
       "hp": 150,
@@ -9495,7 +9495,7 @@
       "chinese": "克雷色利亚"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 120,
@@ -9514,7 +9514,7 @@
       "chinese": "霏欧纳"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 80,
@@ -9533,7 +9533,7 @@
       "chinese": "玛纳霏"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 100,
@@ -9552,7 +9552,7 @@
       "chinese": "达克莱伊"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 70,
@@ -9571,7 +9571,7 @@
       "chinese": "谢米"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 100,
@@ -9590,7 +9590,7 @@
       "chinese": "阿尔宙斯"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 120,
@@ -9609,8 +9609,8 @@
       "chinese": "比克提尼"
     },
     "type": [
-      "psychic",
-      "fire"
+      14,
+      1
     ],
     "base": {
       "hp": 100,
@@ -9629,7 +9629,7 @@
       "chinese": "藤藤蛇"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 45,
@@ -9648,7 +9648,7 @@
       "chinese": "青藤蛇"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 60,
@@ -9667,7 +9667,7 @@
       "chinese": "君主蛇"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 75,
@@ -9686,7 +9686,7 @@
       "chinese": "暖暖猪"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 65,
@@ -9705,8 +9705,8 @@
       "chinese": "炒炒猪"
     },
     "type": [
-      "fire",
-      "fighting"
+      1,
+      7
     ],
     "base": {
       "hp": 90,
@@ -9725,8 +9725,8 @@
       "chinese": "炎武王"
     },
     "type": [
-      "fire",
-      "fighting"
+      1,
+      7
     ],
     "base": {
       "hp": 110,
@@ -9745,7 +9745,7 @@
       "chinese": "水水獭"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -9764,7 +9764,7 @@
       "chinese": "双刃丸"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 75,
@@ -9783,7 +9783,7 @@
       "chinese": "大剑鬼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 95,
@@ -9802,7 +9802,7 @@
       "chinese": "探探鼠"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 45,
@@ -9821,7 +9821,7 @@
       "chinese": "步哨鼠"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 60,
@@ -9840,7 +9840,7 @@
       "chinese": "小约克"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 45,
@@ -9859,7 +9859,7 @@
       "chinese": "哈约克"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 65,
@@ -9878,7 +9878,7 @@
       "chinese": "长毛狗"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 85,
@@ -9897,7 +9897,7 @@
       "chinese": "扒手猫"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 41,
@@ -9916,7 +9916,7 @@
       "chinese": "酷豹"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 64,
@@ -9935,7 +9935,7 @@
       "chinese": "花椰猴"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 50,
@@ -9954,7 +9954,7 @@
       "chinese": "花椰猿"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 75,
@@ -9973,7 +9973,7 @@
       "chinese": "爆香猴"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 50,
@@ -9992,7 +9992,7 @@
       "chinese": "爆香猿"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 75,
@@ -10011,7 +10011,7 @@
       "chinese": "冷水猴"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -10030,7 +10030,7 @@
       "chinese": "冷水猿"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 75,
@@ -10049,7 +10049,7 @@
       "chinese": "食梦梦"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 76,
@@ -10068,7 +10068,7 @@
       "chinese": "梦梦蚀"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 116,
@@ -10087,8 +10087,8 @@
       "chinese": "豆豆鸽"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 50,
@@ -10107,8 +10107,8 @@
       "chinese": "咕咕鸽"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 62,
@@ -10127,8 +10127,8 @@
       "chinese": "高傲雉鸡"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 80,
@@ -10147,7 +10147,7 @@
       "chinese": "斑斑马"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 45,
@@ -10166,7 +10166,7 @@
       "chinese": "雷电斑马"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 75,
@@ -10185,7 +10185,7 @@
       "chinese": "石丸子"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 55,
@@ -10204,7 +10204,7 @@
       "chinese": "地幔岩"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 70,
@@ -10223,7 +10223,7 @@
       "chinese": "庞岩怪"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 85,
@@ -10242,8 +10242,8 @@
       "chinese": "滚滚蝙蝠"
     },
     "type": [
-      "psychic",
-      "flying"
+      14,
+      8
     ],
     "base": {
       "hp": 65,
@@ -10262,8 +10262,8 @@
       "chinese": "心蝙蝠"
     },
     "type": [
-      "psychic",
-      "flying"
+      14,
+      8
     ],
     "base": {
       "hp": 67,
@@ -10282,7 +10282,7 @@
       "chinese": "螺钉地鼠"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 60,
@@ -10301,8 +10301,8 @@
       "chinese": "龙头地鼠"
     },
     "type": [
-      "ground",
-      "steel"
+      10,
+      12
     ],
     "base": {
       "hp": 110,
@@ -10321,7 +10321,7 @@
       "chinese": "差不多娃娃"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 103,
@@ -10340,7 +10340,7 @@
       "chinese": "搬运小匠"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 75,
@@ -10359,7 +10359,7 @@
       "chinese": "铁骨土人"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 85,
@@ -10378,7 +10378,7 @@
       "chinese": "修建老匠"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 105,
@@ -10397,7 +10397,7 @@
       "chinese": "圆蝌蚪"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -10416,8 +10416,8 @@
       "chinese": "蓝蟾蜍"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 75,
@@ -10436,8 +10436,8 @@
       "chinese": "蟾蜍王"
     },
     "type": [
-      "water",
-      "ground"
+      2,
+      10
     ],
     "base": {
       "hp": 105,
@@ -10456,7 +10456,7 @@
       "chinese": "投摔鬼"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 120,
@@ -10475,7 +10475,7 @@
       "chinese": "打击鬼"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 75,
@@ -10494,8 +10494,8 @@
       "chinese": "虫宝包"
     },
     "type": [
-      "bug",
-      "grass"
+      4,
+      3
     ],
     "base": {
       "hp": 45,
@@ -10514,8 +10514,8 @@
       "chinese": "宝包茧"
     },
     "type": [
-      "bug",
-      "grass"
+      4,
+      3
     ],
     "base": {
       "hp": 55,
@@ -10534,8 +10534,8 @@
       "chinese": "保姆虫"
     },
     "type": [
-      "bug",
-      "grass"
+      4,
+      3
     ],
     "base": {
       "hp": 75,
@@ -10554,8 +10554,8 @@
       "chinese": "百足蜈蚣"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 30,
@@ -10574,8 +10574,8 @@
       "chinese": "车轮球"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 40,
@@ -10594,8 +10594,8 @@
       "chinese": "蜈蚣王"
     },
     "type": [
-      "bug",
-      "poison"
+      4,
+      9
     ],
     "base": {
       "hp": 60,
@@ -10614,8 +10614,8 @@
       "chinese": "木棉球"
     },
     "type": [
-      "grass",
-      "fairy"
+      3,
+      18
     ],
     "base": {
       "hp": 40,
@@ -10634,8 +10634,8 @@
       "chinese": "风妖精"
     },
     "type": [
-      "grass",
-      "fairy"
+      3,
+      18
     ],
     "base": {
       "hp": 60,
@@ -10654,7 +10654,7 @@
       "chinese": "百合根娃娃"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 45,
@@ -10673,7 +10673,7 @@
       "chinese": "裙儿小姐"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 70,
@@ -10692,7 +10692,7 @@
       "chinese": "野蛮鲈鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 70,
@@ -10711,8 +10711,8 @@
       "chinese": "黑眼鳄"
     },
     "type": [
-      "ground",
-      "dark"
+      10,
+      17
     ],
     "base": {
       "hp": 50,
@@ -10731,8 +10731,8 @@
       "chinese": "混混鳄"
     },
     "type": [
-      "ground",
-      "dark"
+      10,
+      17
     ],
     "base": {
       "hp": 60,
@@ -10751,8 +10751,8 @@
       "chinese": "流氓鳄"
     },
     "type": [
-      "ground",
-      "dark"
+      10,
+      17
     ],
     "base": {
       "hp": 95,
@@ -10771,7 +10771,7 @@
       "chinese": "火红不倒翁"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 70,
@@ -10790,7 +10790,7 @@
       "chinese": "达摩狒狒"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 105,
@@ -10809,7 +10809,7 @@
       "chinese": "沙铃仙人掌"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 75,
@@ -10828,8 +10828,8 @@
       "chinese": "石居蟹"
     },
     "type": [
-      "bug",
-      "rock"
+      4,
+      11
     ],
     "base": {
       "hp": 50,
@@ -10848,8 +10848,8 @@
       "chinese": "岩殿居蟹"
     },
     "type": [
-      "bug",
-      "rock"
+      4,
+      11
     ],
     "base": {
       "hp": 70,
@@ -10868,8 +10868,8 @@
       "chinese": "滑滑小子"
     },
     "type": [
-      "dark",
-      "fighting"
+      17,
+      7
     ],
     "base": {
       "hp": 50,
@@ -10888,8 +10888,8 @@
       "chinese": "头巾混混"
     },
     "type": [
-      "dark",
-      "fighting"
+      17,
+      7
     ],
     "base": {
       "hp": 65,
@@ -10908,8 +10908,8 @@
       "chinese": "象征鸟"
     },
     "type": [
-      "psychic",
-      "flying"
+      14,
+      8
     ],
     "base": {
       "hp": 72,
@@ -10928,7 +10928,7 @@
       "chinese": "哭哭面具"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 38,
@@ -10947,7 +10947,7 @@
       "chinese": "死神棺"
     },
     "type": [
-      "ghost"
+      6
     ],
     "base": {
       "hp": 58,
@@ -10966,8 +10966,8 @@
       "chinese": "原盖海龟"
     },
     "type": [
-      "water",
-      "rock"
+      2,
+      11
     ],
     "base": {
       "hp": 54,
@@ -10986,8 +10986,8 @@
       "chinese": "肋骨海龟"
     },
     "type": [
-      "water",
-      "rock"
+      2,
+      11
     ],
     "base": {
       "hp": 74,
@@ -11006,8 +11006,8 @@
       "chinese": "始祖小鸟"
     },
     "type": [
-      "rock",
-      "flying"
+      11,
+      8
     ],
     "base": {
       "hp": 55,
@@ -11026,8 +11026,8 @@
       "chinese": "始祖大鸟"
     },
     "type": [
-      "rock",
-      "flying"
+      11,
+      8
     ],
     "base": {
       "hp": 75,
@@ -11046,7 +11046,7 @@
       "chinese": "破破袋"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 50,
@@ -11065,7 +11065,7 @@
       "chinese": "灰尘山"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 80,
@@ -11084,7 +11084,7 @@
       "chinese": "索罗亚"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 40,
@@ -11103,7 +11103,7 @@
       "chinese": "索罗亚克"
     },
     "type": [
-      "dark"
+      17
     ],
     "base": {
       "hp": 60,
@@ -11122,7 +11122,7 @@
       "chinese": "泡沫栗鼠"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 55,
@@ -11141,7 +11141,7 @@
       "chinese": "奇诺栗鼠"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 75,
@@ -11160,7 +11160,7 @@
       "chinese": "哥德宝宝"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 45,
@@ -11179,7 +11179,7 @@
       "chinese": "哥德小童"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 60,
@@ -11198,7 +11198,7 @@
       "chinese": "哥德小姐"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 70,
@@ -11217,7 +11217,7 @@
       "chinese": "单卵细胞球"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 45,
@@ -11236,7 +11236,7 @@
       "chinese": "双卵细胞球"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 65,
@@ -11255,7 +11255,7 @@
       "chinese": "人造细胞卵"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 110,
@@ -11274,8 +11274,8 @@
       "chinese": "鸭宝宝"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 62,
@@ -11294,8 +11294,8 @@
       "chinese": "舞天鹅"
     },
     "type": [
-      "water",
-      "flying"
+      2,
+      8
     ],
     "base": {
       "hp": 75,
@@ -11314,7 +11314,7 @@
       "chinese": "迷你冰"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 36,
@@ -11333,7 +11333,7 @@
       "chinese": "多多冰"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 51,
@@ -11352,7 +11352,7 @@
       "chinese": "双倍多多冰"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 71,
@@ -11371,8 +11371,8 @@
       "chinese": "四季鹿"
     },
     "type": [
-      "normal",
-      "grass"
+      5,
+      3
     ],
     "base": {
       "hp": 60,
@@ -11391,8 +11391,8 @@
       "chinese": "萌芽鹿"
     },
     "type": [
-      "normal",
-      "grass"
+      5,
+      3
     ],
     "base": {
       "hp": 80,
@@ -11411,8 +11411,8 @@
       "chinese": "电飞鼠"
     },
     "type": [
-      "electric",
-      "flying"
+      13,
+      8
     ],
     "base": {
       "hp": 55,
@@ -11431,7 +11431,7 @@
       "chinese": "盖盖虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 50,
@@ -11450,8 +11450,8 @@
       "chinese": "骑士蜗牛"
     },
     "type": [
-      "bug",
-      "steel"
+      4,
+      12
     ],
     "base": {
       "hp": 70,
@@ -11470,8 +11470,8 @@
       "chinese": "哎呀球菇"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 69,
@@ -11490,8 +11490,8 @@
       "chinese": "败露球菇"
     },
     "type": [
-      "grass",
-      "poison"
+      3,
+      9
     ],
     "base": {
       "hp": 114,
@@ -11510,8 +11510,8 @@
       "chinese": "轻飘飘"
     },
     "type": [
-      "water",
-      "ghost"
+      2,
+      6
     ],
     "base": {
       "hp": 55,
@@ -11530,8 +11530,8 @@
       "chinese": "胖嘟嘟"
     },
     "type": [
-      "water",
-      "ghost"
+      2,
+      6
     ],
     "base": {
       "hp": 100,
@@ -11550,7 +11550,7 @@
       "chinese": "保姆曼波"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 165,
@@ -11569,8 +11569,8 @@
       "chinese": "电电虫"
     },
     "type": [
-      "bug",
-      "electric"
+      4,
+      13
     ],
     "base": {
       "hp": 50,
@@ -11589,8 +11589,8 @@
       "chinese": "电蜘蛛"
     },
     "type": [
-      "bug",
-      "electric"
+      4,
+      13
     ],
     "base": {
       "hp": 70,
@@ -11609,8 +11609,8 @@
       "chinese": "种子铁球"
     },
     "type": [
-      "grass",
-      "steel"
+      3,
+      12
     ],
     "base": {
       "hp": 44,
@@ -11629,8 +11629,8 @@
       "chinese": "坚果哑铃"
     },
     "type": [
-      "grass",
-      "steel"
+      3,
+      12
     ],
     "base": {
       "hp": 74,
@@ -11649,7 +11649,7 @@
       "chinese": "齿轮儿"
     },
     "type": [
-      "steel"
+      12
     ],
     "base": {
       "hp": 40,
@@ -11668,7 +11668,7 @@
       "chinese": "齿轮组"
     },
     "type": [
-      "steel"
+      12
     ],
     "base": {
       "hp": 60,
@@ -11687,7 +11687,7 @@
       "chinese": "齿轮怪"
     },
     "type": [
-      "steel"
+      12
     ],
     "base": {
       "hp": 60,
@@ -11706,7 +11706,7 @@
       "chinese": "麻麻小鱼"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 35,
@@ -11725,7 +11725,7 @@
       "chinese": "麻麻鳗"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 65,
@@ -11744,7 +11744,7 @@
       "chinese": "麻麻鳗鱼王"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 85,
@@ -11763,7 +11763,7 @@
       "chinese": "小灰怪"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 55,
@@ -11782,7 +11782,7 @@
       "chinese": "大宇怪"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 75,
@@ -11801,8 +11801,8 @@
       "chinese": "烛光灵"
     },
     "type": [
-      "ghost",
-      "fire"
+      6,
+      1
     ],
     "base": {
       "hp": 50,
@@ -11821,8 +11821,8 @@
       "chinese": "灯火幽灵"
     },
     "type": [
-      "ghost",
-      "fire"
+      6,
+      1
     ],
     "base": {
       "hp": 60,
@@ -11841,8 +11841,8 @@
       "chinese": "水晶灯火灵"
     },
     "type": [
-      "ghost",
-      "fire"
+      6,
+      1
     ],
     "base": {
       "hp": 60,
@@ -11861,7 +11861,7 @@
       "chinese": "牙牙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 46,
@@ -11880,7 +11880,7 @@
       "chinese": "斧牙龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 66,
@@ -11899,7 +11899,7 @@
       "chinese": "双斧战龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 76,
@@ -11918,7 +11918,7 @@
       "chinese": "喷嚏熊"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 55,
@@ -11937,7 +11937,7 @@
       "chinese": "冻原熊"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 95,
@@ -11956,7 +11956,7 @@
       "chinese": "几何雪花"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 80,
@@ -11975,7 +11975,7 @@
       "chinese": "小嘴蜗"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 50,
@@ -11994,7 +11994,7 @@
       "chinese": "敏捷虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 80,
@@ -12013,8 +12013,8 @@
       "chinese": "泥巴鱼"
     },
     "type": [
-      "ground",
-      "electric"
+      10,
+      13
     ],
     "base": {
       "hp": 109,
@@ -12033,7 +12033,7 @@
       "chinese": "功夫鼬"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 45,
@@ -12052,7 +12052,7 @@
       "chinese": "师父鼬"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 65,
@@ -12071,7 +12071,7 @@
       "chinese": "赤面龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 77,
@@ -12090,8 +12090,8 @@
       "chinese": "泥偶小人"
     },
     "type": [
-      "ground",
-      "ghost"
+      10,
+      6
     ],
     "base": {
       "hp": 59,
@@ -12110,8 +12110,8 @@
       "chinese": "泥偶巨人"
     },
     "type": [
-      "ground",
-      "ghost"
+      10,
+      6
     ],
     "base": {
       "hp": 89,
@@ -12130,8 +12130,8 @@
       "chinese": "驹刀小兵"
     },
     "type": [
-      "dark",
-      "steel"
+      17,
+      12
     ],
     "base": {
       "hp": 45,
@@ -12150,8 +12150,8 @@
       "chinese": "劈斩司令"
     },
     "type": [
-      "dark",
-      "steel"
+      17,
+      12
     ],
     "base": {
       "hp": 65,
@@ -12170,7 +12170,7 @@
       "chinese": "爆炸头水牛"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 95,
@@ -12189,8 +12189,8 @@
       "chinese": "毛头小鹰"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 70,
@@ -12209,8 +12209,8 @@
       "chinese": "勇士雄鹰"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 100,
@@ -12229,8 +12229,8 @@
       "chinese": "秃鹰丫头"
     },
     "type": [
-      "dark",
-      "flying"
+      17,
+      8
     ],
     "base": {
       "hp": 70,
@@ -12249,8 +12249,8 @@
       "chinese": "秃鹰娜"
     },
     "type": [
-      "dark",
-      "flying"
+      17,
+      8
     ],
     "base": {
       "hp": 110,
@@ -12269,7 +12269,7 @@
       "chinese": "熔蚁兽"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 85,
@@ -12288,8 +12288,8 @@
       "chinese": "铁蚁"
     },
     "type": [
-      "bug",
-      "steel"
+      4,
+      12
     ],
     "base": {
       "hp": 58,
@@ -12308,8 +12308,8 @@
       "chinese": "单首龙"
     },
     "type": [
-      "dark",
-      "dragon"
+      17,
+      15
     ],
     "base": {
       "hp": 52,
@@ -12328,8 +12328,8 @@
       "chinese": "双首暴龙"
     },
     "type": [
-      "dark",
-      "dragon"
+      17,
+      15
     ],
     "base": {
       "hp": 72,
@@ -12348,8 +12348,8 @@
       "chinese": "三首恶龙"
     },
     "type": [
-      "dark",
-      "dragon"
+      17,
+      15
     ],
     "base": {
       "hp": 92,
@@ -12368,8 +12368,8 @@
       "chinese": "燃烧虫"
     },
     "type": [
-      "bug",
-      "fire"
+      4,
+      1
     ],
     "base": {
       "hp": 55,
@@ -12388,8 +12388,8 @@
       "chinese": "火神蛾"
     },
     "type": [
-      "bug",
-      "fire"
+      4,
+      1
     ],
     "base": {
       "hp": 85,
@@ -12408,8 +12408,8 @@
       "chinese": "勾帕路翁"
     },
     "type": [
-      "steel",
-      "fighting"
+      12,
+      7
     ],
     "base": {
       "hp": 91,
@@ -12428,8 +12428,8 @@
       "chinese": "代拉基翁"
     },
     "type": [
-      "rock",
-      "fighting"
+      11,
+      7
     ],
     "base": {
       "hp": 91,
@@ -12448,8 +12448,8 @@
       "chinese": "毕力吉翁"
     },
     "type": [
-      "grass",
-      "fighting"
+      3,
+      7
     ],
     "base": {
       "hp": 91,
@@ -12468,7 +12468,7 @@
       "chinese": "龙卷云"
     },
     "type": [
-      "flying"
+      8
     ],
     "base": {
       "hp": 79,
@@ -12487,8 +12487,8 @@
       "chinese": "雷电云"
     },
     "type": [
-      "electric",
-      "flying"
+      13,
+      8
     ],
     "base": {
       "hp": 79,
@@ -12507,8 +12507,8 @@
       "chinese": "莱希拉姆"
     },
     "type": [
-      "dragon",
-      "fire"
+      15,
+      1
     ],
     "base": {
       "hp": 100,
@@ -12527,8 +12527,8 @@
       "chinese": "捷克罗姆"
     },
     "type": [
-      "dragon",
-      "electric"
+      15,
+      13
     ],
     "base": {
       "hp": 100,
@@ -12547,8 +12547,8 @@
       "chinese": "土地云"
     },
     "type": [
-      "ground",
-      "flying"
+      10,
+      8
     ],
     "base": {
       "hp": 89,
@@ -12567,8 +12567,8 @@
       "chinese": "酋雷姆"
     },
     "type": [
-      "dragon",
-      "ice"
+      15,
+      16
     ],
     "base": {
       "hp": 125,
@@ -12587,8 +12587,8 @@
       "chinese": "凯路迪欧"
     },
     "type": [
-      "water",
-      "fighting"
+      2,
+      7
     ],
     "base": {
       "hp": 91,
@@ -12607,8 +12607,8 @@
       "chinese": "美洛耶塔"
     },
     "type": [
-      "normal",
-      "psychic"
+      5,
+      14
     ],
     "base": {
       "hp": 100,
@@ -12627,8 +12627,8 @@
       "chinese": "盖诺赛克特"
     },
     "type": [
-      "bug",
-      "steel"
+      4,
+      12
     ],
     "base": {
       "hp": 71,
@@ -12647,7 +12647,7 @@
       "chinese": "哈力栗"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 56,
@@ -12666,7 +12666,7 @@
       "chinese": "胖胖哈力"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 61,
@@ -12685,8 +12685,8 @@
       "chinese": "布里卡隆"
     },
     "type": [
-      "grass",
-      "fighting"
+      3,
+      7
     ],
     "base": {
       "hp": 88,
@@ -12705,7 +12705,7 @@
       "chinese": "火狐狸"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 40,
@@ -12724,7 +12724,7 @@
       "chinese": "长尾火狐"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 59,
@@ -12743,8 +12743,8 @@
       "chinese": "妖火红狐"
     },
     "type": [
-      "fire",
-      "psychic"
+      1,
+      14
     ],
     "base": {
       "hp": 75,
@@ -12763,7 +12763,7 @@
       "chinese": "呱呱泡蛙"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 41,
@@ -12782,7 +12782,7 @@
       "chinese": "呱头蛙"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 54,
@@ -12801,8 +12801,8 @@
       "chinese": "甲贺忍蛙"
     },
     "type": [
-      "water",
-      "dark"
+      2,
+      17
     ],
     "base": {
       "hp": 72,
@@ -12821,7 +12821,7 @@
       "chinese": "掘掘兔"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 38,
@@ -12840,8 +12840,8 @@
       "chinese": "掘地兔"
     },
     "type": [
-      "normal",
-      "ground"
+      5,
+      10
     ],
     "base": {
       "hp": 85,
@@ -12860,8 +12860,8 @@
       "chinese": "小箭雀"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 45,
@@ -12880,8 +12880,8 @@
       "chinese": "火箭雀"
     },
     "type": [
-      "fire",
-      "flying"
+      1,
+      8
     ],
     "base": {
       "hp": 62,
@@ -12900,8 +12900,8 @@
       "chinese": "烈箭鹰"
     },
     "type": [
-      "fire",
-      "flying"
+      1,
+      8
     ],
     "base": {
       "hp": 78,
@@ -12920,7 +12920,7 @@
       "chinese": "粉蝶虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 38,
@@ -12939,7 +12939,7 @@
       "chinese": "粉蝶蛹"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 45,
@@ -12958,8 +12958,8 @@
       "chinese": "彩粉蝶"
     },
     "type": [
-      "bug",
-      "flying"
+      4,
+      8
     ],
     "base": {
       "hp": 80,
@@ -12978,8 +12978,8 @@
       "chinese": "小狮狮"
     },
     "type": [
-      "fire",
-      "normal"
+      1,
+      5
     ],
     "base": {
       "hp": 62,
@@ -12998,8 +12998,8 @@
       "chinese": "火炎狮"
     },
     "type": [
-      "fire",
-      "normal"
+      1,
+      5
     ],
     "base": {
       "hp": 86,
@@ -13018,7 +13018,7 @@
       "chinese": "花蓓蓓"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 44,
@@ -13037,7 +13037,7 @@
       "chinese": "花叶蒂"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 54,
@@ -13056,7 +13056,7 @@
       "chinese": "花洁夫人"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 78,
@@ -13075,7 +13075,7 @@
       "chinese": "坐骑小羊"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 66,
@@ -13094,7 +13094,7 @@
       "chinese": "坐骑山羊"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 123,
@@ -13113,7 +13113,7 @@
       "chinese": "顽皮熊猫"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 67,
@@ -13132,8 +13132,8 @@
       "chinese": "流氓熊猫"
     },
     "type": [
-      "fighting",
-      "dark"
+      7,
+      17
     ],
     "base": {
       "hp": 95,
@@ -13152,7 +13152,7 @@
       "chinese": "多丽米亚"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 75,
@@ -13171,7 +13171,7 @@
       "chinese": "妙喵"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 62,
@@ -13190,7 +13190,7 @@
       "chinese": "超能妙喵"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 74,
@@ -13209,8 +13209,8 @@
       "chinese": "独剑鞘"
     },
     "type": [
-      "steel",
-      "ghost"
+      12,
+      6
     ],
     "base": {
       "hp": 45,
@@ -13229,8 +13229,8 @@
       "chinese": "双剑鞘"
     },
     "type": [
-      "steel",
-      "ghost"
+      12,
+      6
     ],
     "base": {
       "hp": 59,
@@ -13249,8 +13249,8 @@
       "chinese": "坚盾剑怪"
     },
     "type": [
-      "steel",
-      "ghost"
+      12,
+      6
     ],
     "base": {
       "hp": 60,
@@ -13269,7 +13269,7 @@
       "chinese": "粉香香"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 78,
@@ -13288,7 +13288,7 @@
       "chinese": "芳香精"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 101,
@@ -13307,7 +13307,7 @@
       "chinese": "绵绵泡芙"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 62,
@@ -13326,7 +13326,7 @@
       "chinese": "胖甜妮"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 82,
@@ -13345,8 +13345,8 @@
       "chinese": "好啦鱿"
     },
     "type": [
-      "dark",
-      "psychic"
+      17,
+      14
     ],
     "base": {
       "hp": 53,
@@ -13365,8 +13365,8 @@
       "chinese": "乌贼王"
     },
     "type": [
-      "dark",
-      "psychic"
+      17,
+      14
     ],
     "base": {
       "hp": 86,
@@ -13385,8 +13385,8 @@
       "chinese": "龟脚脚"
     },
     "type": [
-      "rock",
-      "water"
+      11,
+      2
     ],
     "base": {
       "hp": 42,
@@ -13405,8 +13405,8 @@
       "chinese": "龟足巨铠"
     },
     "type": [
-      "rock",
-      "water"
+      11,
+      2
     ],
     "base": {
       "hp": 72,
@@ -13425,8 +13425,8 @@
       "chinese": "垃垃藻"
     },
     "type": [
-      "poison",
-      "water"
+      9,
+      2
     ],
     "base": {
       "hp": 50,
@@ -13445,8 +13445,8 @@
       "chinese": "毒藻龙"
     },
     "type": [
-      "poison",
-      "dragon"
+      9,
+      15
     ],
     "base": {
       "hp": 65,
@@ -13465,7 +13465,7 @@
       "chinese": "铁臂枪虾"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -13484,7 +13484,7 @@
       "chinese": "钢炮臂虾"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 71,
@@ -13503,8 +13503,8 @@
       "chinese": "伞电蜥"
     },
     "type": [
-      "electric",
-      "normal"
+      13,
+      5
     ],
     "base": {
       "hp": 44,
@@ -13523,8 +13523,8 @@
       "chinese": "光电伞蜥"
     },
     "type": [
-      "electric",
-      "normal"
+      13,
+      5
     ],
     "base": {
       "hp": 62,
@@ -13543,8 +13543,8 @@
       "chinese": "宝宝暴龙"
     },
     "type": [
-      "rock",
-      "dragon"
+      11,
+      15
     ],
     "base": {
       "hp": 58,
@@ -13563,8 +13563,8 @@
       "chinese": "怪颚龙"
     },
     "type": [
-      "rock",
-      "dragon"
+      11,
+      15
     ],
     "base": {
       "hp": 82,
@@ -13583,8 +13583,8 @@
       "chinese": "冰雪龙"
     },
     "type": [
-      "rock",
-      "ice"
+      11,
+      16
     ],
     "base": {
       "hp": 77,
@@ -13603,8 +13603,8 @@
       "chinese": "冰雪巨龙"
     },
     "type": [
-      "rock",
-      "ice"
+      11,
+      16
     ],
     "base": {
       "hp": 123,
@@ -13623,7 +13623,7 @@
       "chinese": "仙子伊布"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 95,
@@ -13642,8 +13642,8 @@
       "chinese": "摔角鹰人"
     },
     "type": [
-      "fighting",
-      "flying"
+      7,
+      8
     ],
     "base": {
       "hp": 78,
@@ -13662,8 +13662,8 @@
       "chinese": "咚咚鼠"
     },
     "type": [
-      "electric",
-      "fairy"
+      13,
+      18
     ],
     "base": {
       "hp": 67,
@@ -13682,8 +13682,8 @@
       "chinese": "小碎钻"
     },
     "type": [
-      "rock",
-      "fairy"
+      11,
+      18
     ],
     "base": {
       "hp": 50,
@@ -13702,7 +13702,7 @@
       "chinese": "黏黏宝"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 45,
@@ -13721,7 +13721,7 @@
       "chinese": "黏美儿"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 68,
@@ -13740,7 +13740,7 @@
       "chinese": "黏美龙"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 90,
@@ -13759,8 +13759,8 @@
       "chinese": "钥圈儿"
     },
     "type": [
-      "steel",
-      "fairy"
+      12,
+      18
     ],
     "base": {
       "hp": 57,
@@ -13779,8 +13779,8 @@
       "chinese": "小木灵"
     },
     "type": [
-      "ghost",
-      "grass"
+      6,
+      3
     ],
     "base": {
       "hp": 43,
@@ -13799,8 +13799,8 @@
       "chinese": "朽木妖"
     },
     "type": [
-      "ghost",
-      "grass"
+      6,
+      3
     ],
     "base": {
       "hp": 85,
@@ -13819,8 +13819,8 @@
       "chinese": "南瓜精"
     },
     "type": [
-      "ghost",
-      "grass"
+      6,
+      3
     ],
     "base": {
       "hp": 59,
@@ -13839,8 +13839,8 @@
       "chinese": "南瓜怪人"
     },
     "type": [
-      "ghost",
-      "grass"
+      6,
+      3
     ],
     "base": {
       "hp": 85,
@@ -13859,7 +13859,7 @@
       "chinese": "冰宝"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 55,
@@ -13878,7 +13878,7 @@
       "chinese": "冰岩怪"
     },
     "type": [
-      "ice"
+      16
     ],
     "base": {
       "hp": 95,
@@ -13897,8 +13897,8 @@
       "chinese": "嗡蝠"
     },
     "type": [
-      "flying",
-      "dragon"
+      8,
+      15
     ],
     "base": {
       "hp": 40,
@@ -13917,8 +13917,8 @@
       "chinese": "音波龙"
     },
     "type": [
-      "flying",
-      "dragon"
+      8,
+      15
     ],
     "base": {
       "hp": 85,
@@ -13937,7 +13937,7 @@
       "chinese": "哲尔尼亚斯"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 126,
@@ -13956,8 +13956,8 @@
       "chinese": "伊裴尔塔尔"
     },
     "type": [
-      "dark",
-      "flying"
+      17,
+      8
     ],
     "base": {
       "hp": 126,
@@ -13976,8 +13976,8 @@
       "chinese": "基格尔德"
     },
     "type": [
-      "dragon",
-      "ground"
+      15,
+      10
     ],
     "base": {
       "hp": 108,
@@ -13996,8 +13996,8 @@
       "chinese": "蒂安希"
     },
     "type": [
-      "rock",
-      "fairy"
+      11,
+      18
     ],
     "base": {
       "hp": 50,
@@ -14016,8 +14016,8 @@
       "chinese": "胡帕"
     },
     "type": [
-      "psychic",
-      "ghost"
+      14,
+      6
     ],
     "base": {
       "hp": 80,
@@ -14036,8 +14036,8 @@
       "chinese": "波尔凯尼恩"
     },
     "type": [
-      "fire",
-      "water"
+      1,
+      2
     ],
     "base": {
       "hp": 80,
@@ -14056,8 +14056,8 @@
       "chinese": "木木枭"
     },
     "type": [
-      "grass",
-      "flying"
+      3,
+      8
     ],
     "base": {
       "hp": 68,
@@ -14076,8 +14076,8 @@
       "chinese": "投羽枭"
     },
     "type": [
-      "grass",
-      "flying"
+      3,
+      8
     ],
     "base": {
       "hp": 78,
@@ -14096,8 +14096,8 @@
       "chinese": "狙射树枭"
     },
     "type": [
-      "grass",
-      "ghost"
+      3,
+      6
     ],
     "base": {
       "hp": 78,
@@ -14116,7 +14116,7 @@
       "chinese": "火斑喵"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 45,
@@ -14135,7 +14135,7 @@
       "chinese": "炎热喵"
     },
     "type": [
-      "fire"
+      1
     ],
     "base": {
       "hp": 65,
@@ -14154,8 +14154,8 @@
       "chinese": "炽焰咆哮虎"
     },
     "type": [
-      "fire",
-      "dark"
+      1,
+      17
     ],
     "base": {
       "hp": 95,
@@ -14174,7 +14174,7 @@
       "chinese": "球球海狮"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 50,
@@ -14193,7 +14193,7 @@
       "chinese": "花漾海狮"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 60,
@@ -14212,8 +14212,8 @@
       "chinese": "西狮海壬"
     },
     "type": [
-      "water",
-      "fairy"
+      2,
+      18
     ],
     "base": {
       "hp": 80,
@@ -14232,8 +14232,8 @@
       "chinese": "小笃儿"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 35,
@@ -14252,8 +14252,8 @@
       "chinese": "喇叭啄鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 55,
@@ -14272,8 +14272,8 @@
       "chinese": "铳嘴大鸟"
     },
     "type": [
-      "normal",
-      "flying"
+      5,
+      8
     ],
     "base": {
       "hp": 80,
@@ -14292,7 +14292,7 @@
       "chinese": "猫鼬少"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 48,
@@ -14311,7 +14311,7 @@
       "chinese": "猫鼬探长"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 88,
@@ -14330,7 +14330,7 @@
       "chinese": "强颚鸡母虫"
     },
     "type": [
-      "bug"
+      4
     ],
     "base": {
       "hp": 47,
@@ -14349,8 +14349,8 @@
       "chinese": "虫电宝"
     },
     "type": [
-      "bug",
-      "electric"
+      4,
+      13
     ],
     "base": {
       "hp": 57,
@@ -14369,8 +14369,8 @@
       "chinese": "锹农炮虫"
     },
     "type": [
-      "bug",
-      "electric"
+      4,
+      13
     ],
     "base": {
       "hp": 77,
@@ -14389,7 +14389,7 @@
       "chinese": "好胜蟹"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 47,
@@ -14408,8 +14408,8 @@
       "chinese": "好胜毛蟹"
     },
     "type": [
-      "fighting",
-      "ice"
+      7,
+      16
     ],
     "base": {
       "hp": 97,
@@ -14428,8 +14428,8 @@
       "chinese": "花舞鸟"
     },
     "type": [
-      "fire",
-      "flying"
+      1,
+      8
     ],
     "base": {
       "hp": 75,
@@ -14448,8 +14448,8 @@
       "chinese": "萌虻"
     },
     "type": [
-      "bug",
-      "fairy"
+      4,
+      18
     ],
     "base": {
       "hp": 40,
@@ -14468,8 +14468,8 @@
       "chinese": "蝶结萌虻"
     },
     "type": [
-      "bug",
-      "fairy"
+      4,
+      18
     ],
     "base": {
       "hp": 60,
@@ -14488,7 +14488,7 @@
       "chinese": "岩狗狗"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 45,
@@ -14507,7 +14507,7 @@
       "chinese": "鬃岩狼人"
     },
     "type": [
-      "rock"
+      11
     ],
     "base": {
       "hp": 75,
@@ -14526,7 +14526,7 @@
       "chinese": "弱丁鱼"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 45,
@@ -14545,8 +14545,8 @@
       "chinese": "好坏星"
     },
     "type": [
-      "poison",
-      "water"
+      9,
+      2
     ],
     "base": {
       "hp": 50,
@@ -14565,8 +14565,8 @@
       "chinese": "超坏星"
     },
     "type": [
-      "poison",
-      "water"
+      9,
+      2
     ],
     "base": {
       "hp": 50,
@@ -14585,7 +14585,7 @@
       "chinese": "泥驴仔"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 70,
@@ -14604,7 +14604,7 @@
       "chinese": "重泥挽马"
     },
     "type": [
-      "ground"
+      10
     ],
     "base": {
       "hp": 100,
@@ -14623,8 +14623,8 @@
       "chinese": "滴蛛"
     },
     "type": [
-      "water",
-      "bug"
+      2,
+      4
     ],
     "base": {
       "hp": 38,
@@ -14643,8 +14643,8 @@
       "chinese": "滴蛛霸"
     },
     "type": [
-      "water",
-      "bug"
+      2,
+      4
     ],
     "base": {
       "hp": 68,
@@ -14663,7 +14663,7 @@
       "chinese": "伪螳草"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 40,
@@ -14682,7 +14682,7 @@
       "chinese": "兰螳花"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 70,
@@ -14701,8 +14701,8 @@
       "chinese": "睡睡菇"
     },
     "type": [
-      "grass",
-      "fairy"
+      3,
+      18
     ],
     "base": {
       "hp": 40,
@@ -14721,8 +14721,8 @@
       "chinese": "灯罩夜菇"
     },
     "type": [
-      "grass",
-      "fairy"
+      3,
+      18
     ],
     "base": {
       "hp": 60,
@@ -14741,8 +14741,8 @@
       "chinese": "夜盗火蜥"
     },
     "type": [
-      "poison",
-      "fire"
+      9,
+      1
     ],
     "base": {
       "hp": 48,
@@ -14761,8 +14761,8 @@
       "chinese": "焰后蜥"
     },
     "type": [
-      "poison",
-      "fire"
+      9,
+      1
     ],
     "base": {
       "hp": 68,
@@ -14781,8 +14781,8 @@
       "chinese": "童偶熊"
     },
     "type": [
-      "normal",
-      "fighting"
+      5,
+      7
     ],
     "base": {
       "hp": 70,
@@ -14801,8 +14801,8 @@
       "chinese": "穿着熊"
     },
     "type": [
-      "normal",
-      "fighting"
+      5,
+      7
     ],
     "base": {
       "hp": 120,
@@ -14821,7 +14821,7 @@
       "chinese": "甜竹竹"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 42,
@@ -14840,7 +14840,7 @@
       "chinese": "甜舞妮"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 52,
@@ -14859,7 +14859,7 @@
       "chinese": "甜冷美后"
     },
     "type": [
-      "grass"
+      3
     ],
     "base": {
       "hp": 72,
@@ -14878,7 +14878,7 @@
       "chinese": "花疗环环"
     },
     "type": [
-      "fairy"
+      18
     ],
     "base": {
       "hp": 51,
@@ -14897,8 +14897,8 @@
       "chinese": "智挥猩"
     },
     "type": [
-      "normal",
-      "psychic"
+      5,
+      14
     ],
     "base": {
       "hp": 90,
@@ -14917,7 +14917,7 @@
       "chinese": "投掷猴"
     },
     "type": [
-      "fighting"
+      7
     ],
     "base": {
       "hp": 100,
@@ -14936,8 +14936,8 @@
       "chinese": "胆小虫"
     },
     "type": [
-      "bug",
-      "water"
+      4,
+      2
     ],
     "base": {
       "hp": 25,
@@ -14956,8 +14956,8 @@
       "chinese": "具甲武者"
     },
     "type": [
-      "bug",
-      "water"
+      4,
+      2
     ],
     "base": {
       "hp": 75,
@@ -14976,8 +14976,8 @@
       "chinese": "沙丘娃"
     },
     "type": [
-      "ghost",
-      "ground"
+      6,
+      10
     ],
     "base": {
       "hp": 55,
@@ -14996,8 +14996,8 @@
       "chinese": "噬沙堡爷"
     },
     "type": [
-      "ghost",
-      "ground"
+      6,
+      10
     ],
     "base": {
       "hp": 85,
@@ -15016,7 +15016,7 @@
       "chinese": "拳海参"
     },
     "type": [
-      "water"
+      2
     ],
     "base": {
       "hp": 55,
@@ -15035,7 +15035,7 @@
       "chinese": "属性：空"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 95,
@@ -15054,7 +15054,7 @@
       "chinese": "银伴战兽"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 95,
@@ -15073,8 +15073,8 @@
       "chinese": "小陨星"
     },
     "type": [
-      "rock",
-      "flying"
+      11,
+      8
     ],
     "base": {
       "hp": 60,
@@ -15093,7 +15093,7 @@
       "chinese": "树枕尾熊"
     },
     "type": [
-      "normal"
+      5
     ],
     "base": {
       "hp": 65,
@@ -15112,8 +15112,8 @@
       "chinese": "爆焰龟兽"
     },
     "type": [
-      "fire",
-      "dragon"
+      1,
+      15
     ],
     "base": {
       "hp": 60,
@@ -15132,8 +15132,8 @@
       "chinese": "托戈德玛尔"
     },
     "type": [
-      "electric",
-      "steel"
+      13,
+      12
     ],
     "base": {
       "hp": 65,
@@ -15152,8 +15152,8 @@
       "chinese": "谜拟ｑ"
     },
     "type": [
-      "ghost",
-      "fairy"
+      6,
+      18
     ],
     "base": {
       "hp": 55,
@@ -15172,8 +15172,8 @@
       "chinese": "磨牙彩皮鱼"
     },
     "type": [
-      "water",
-      "psychic"
+      2,
+      14
     ],
     "base": {
       "hp": 68,
@@ -15192,8 +15192,8 @@
       "chinese": "老翁龙"
     },
     "type": [
-      "normal",
-      "dragon"
+      5,
+      15
     ],
     "base": {
       "hp": 78,
@@ -15212,8 +15212,8 @@
       "chinese": "破破舵轮"
     },
     "type": [
-      "ghost",
-      "grass"
+      6,
+      3
     ],
     "base": {
       "hp": 70,
@@ -15232,7 +15232,7 @@
       "chinese": "心鳞宝"
     },
     "type": [
-      "dragon"
+      15
     ],
     "base": {
       "hp": 45,
@@ -15251,8 +15251,8 @@
       "chinese": "鳞甲龙"
     },
     "type": [
-      "dragon",
-      "fighting"
+      15,
+      7
     ],
     "base": {
       "hp": 55,
@@ -15271,8 +15271,8 @@
       "chinese": "杖尾鳞甲龙"
     },
     "type": [
-      "dragon",
-      "fighting"
+      15,
+      7
     ],
     "base": {
       "hp": 75,
@@ -15291,8 +15291,8 @@
       "chinese": "卡璞・鸣鸣"
     },
     "type": [
-      "electric",
-      "fairy"
+      13,
+      18
     ],
     "base": {
       "hp": 70,
@@ -15311,8 +15311,8 @@
       "chinese": "卡璞・蝶蝶"
     },
     "type": [
-      "psychic",
-      "fairy"
+      14,
+      18
     ],
     "base": {
       "hp": 70,
@@ -15331,8 +15331,8 @@
       "chinese": "卡璞・哞哞"
     },
     "type": [
-      "grass",
-      "fairy"
+      3,
+      18
     ],
     "base": {
       "hp": 70,
@@ -15351,8 +15351,8 @@
       "chinese": "卡璞・鳍鳍"
     },
     "type": [
-      "water",
-      "fairy"
+      2,
+      18
     ],
     "base": {
       "hp": 70,
@@ -15371,7 +15371,7 @@
       "chinese": "科斯莫古"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 43,
@@ -15390,7 +15390,7 @@
       "chinese": "科斯莫姆"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 43,
@@ -15409,8 +15409,8 @@
       "chinese": "索尔迦雷欧"
     },
     "type": [
-      "psychic",
-      "steel"
+      14,
+      12
     ],
     "base": {
       "hp": 137,
@@ -15429,8 +15429,8 @@
       "chinese": "露奈雅拉"
     },
     "type": [
-      "psychic",
-      "ghost"
+      14,
+      6
     ],
     "base": {
       "hp": 137,
@@ -15449,8 +15449,8 @@
       "chinese": "虚吾伊德"
     },
     "type": [
-      "rock",
-      "poison"
+      11,
+      9
     ],
     "base": {
       "hp": 109,
@@ -15469,8 +15469,8 @@
       "chinese": "爆肌蚊"
     },
     "type": [
-      "bug",
-      "fighting"
+      4,
+      7
     ],
     "base": {
       "hp": 107,
@@ -15489,8 +15489,8 @@
       "chinese": "费洛美螂"
     },
     "type": [
-      "bug",
-      "fighting"
+      4,
+      7
     ],
     "base": {
       "hp": 71,
@@ -15509,7 +15509,7 @@
       "chinese": "电束木"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 83,
@@ -15528,8 +15528,8 @@
       "chinese": "铁火辉夜"
     },
     "type": [
-      "steel",
-      "flying"
+      12,
+      8
     ],
     "base": {
       "hp": 97,
@@ -15548,8 +15548,8 @@
       "chinese": "纸御剑"
     },
     "type": [
-      "grass",
-      "steel"
+      3,
+      12
     ],
     "base": {
       "hp": 59,
@@ -15568,8 +15568,8 @@
       "chinese": "恶食大王"
     },
     "type": [
-      "dark",
-      "dragon"
+      17,
+      15
     ],
     "base": {
       "hp": 223,
@@ -15588,7 +15588,7 @@
       "chinese": "奈克洛兹玛"
     },
     "type": [
-      "psychic"
+      14
     ],
     "base": {
       "hp": 97,
@@ -15607,8 +15607,8 @@
       "chinese": "玛机雅娜"
     },
     "type": [
-      "steel",
-      "fairy"
+      12,
+      18
     ],
     "base": {
       "hp": 80,
@@ -15627,8 +15627,8 @@
       "chinese": "玛夏多"
     },
     "type": [
-      "fighting",
-      "ghost"
+      7,
+      6
     ],
     "base": {
       "hp": 90,
@@ -15647,7 +15647,7 @@
       "chinese": "毒贝比"
     },
     "type": [
-      "poison"
+      9
     ],
     "base": {
       "hp": 67,
@@ -15666,8 +15666,8 @@
       "chinese": "四颚针龙"
     },
     "type": [
-      "poison",
-      "dragon"
+      9,
+      15
     ],
     "base": {
       "hp": 73,
@@ -15686,8 +15686,8 @@
       "chinese": "垒磊石"
     },
     "type": [
-      "rock",
-      "steel"
+      11,
+      12
     ],
     "base": {
       "hp": 61,
@@ -15706,8 +15706,8 @@
       "chinese": "砰头小丑"
     },
     "type": [
-      "fire",
-      "ghost"
+      1,
+      6
     ],
     "base": {
       "hp": 53,
@@ -15726,7 +15726,7 @@
       "chinese": "捷拉奥拉"
     },
     "type": [
-      "electric"
+      13
     ],
     "base": {
       "hp": 88,
@@ -15745,7 +15745,7 @@
       "chinese": "美录坦"
     },
     "type": [
-      "steel"
+      12
     ],
     "base": {
       "hp": 46,
@@ -15764,7 +15764,7 @@
       "chinese": "美录梅塔"
     },
     "type": [
-      "steel"
+      12
     ],
     "base": {
       "hp": 135,

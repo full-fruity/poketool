@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_06_064506) do
+ActiveRecord::Schema.define(version: 2019_02_07_162006) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(version: 2019_02_06_064506) do
     t.integer "no"
     t.string "name"
     t.string "screen_name"
-    t.string "type1"
-    t.string "type2"
+    t.integer "type1_id"
+    t.integer "type2_id"
     t.integer "hp"
     t.integer "atk"
     t.integer "blk"
@@ -39,10 +39,10 @@ ActiveRecord::Schema.define(version: 2019_02_06_064506) do
   end
 
   create_table "my_monsters", force: :cascade do |t|
-    t.string "user", null: false
-    t.string "monster", null: false
+    t.integer "user_id", null: false
+    t.integer "monster_id", null: false
     t.string "nicname"
-    t.string "personality", null: false
+    t.integer "parsonality_id", null: false
     t.integer "individual_hp"
     t.integer "individual_atk"
     t.integer "individual_blk"
@@ -78,7 +78,7 @@ ActiveRecord::Schema.define(version: 2019_02_06_064506) do
   create_table "skills", force: :cascade do |t|
     t.string "name"
     t.string "screen_name"
-    t.string "element"
+    t.integer "type_id"
     t.string "category"
     t.integer "power"
     t.integer "accuracy"

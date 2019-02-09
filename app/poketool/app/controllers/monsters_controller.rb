@@ -3,7 +3,8 @@ class MonstersController < ApplicationController
   def top
   end
 
-  def new
+  def create
+    
   end
 
 end

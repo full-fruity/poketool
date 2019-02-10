@@ -65,4 +65,8 @@ class MonstersController < ApplicationController
 
   end
 
+  def show
+    @monsters = MyMonster.all
+  end
+
 end

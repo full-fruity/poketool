@@ -6,6 +6,26 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Type.create(name:'fire', screen_name:'ほのお')
+Type.create(name:'water', screen_name:'みず')
+Type.create(name:'grass', screen_name:'くさ')
+Type.create(name:'bug', screen_name:'むし')
+Type.create(name:'normal', screen_name:'ノーマル')
+Type.create(name:'ghost', screen_name:'ゴースト')
+Type.create(name:'fighting', screen_name:'かくとう')
+Type.create(name:'flying', screen_name:'ひこう')
+Type.create(name:'poison', screen_name:'どく')
+Type.create(name:'ground', screen_name:'じめん')
+Type.create(name:'rock', screen_name:'いわ')
+Type.create(name:'steel', screen_name:'はがね')
+Type.create(name:'electric', screen_name:'でんき')
+Type.create(name:'dragon', screen_name:'ドラゴン')
+Type.create(name:'psychic', screen_name:'エスパー')
+Type.create(name:'ice', screen_name:'こおり')
+Type.create(name:'dark', screen_name:'あく')
+Type.create(name:'fairy', screen_name:'フェアリー')
+
+Parsonality.create(name:'adamant', screen_name:'いじっぱり', atk:1.1, blk:1.0, ctc:0.9, def:1.0, spd:1.0)
 
 skill = ActiveSupport::JSON.decode(File.read('/usr/src/app/poketool/db/skills.json'))
 skill.each do |data|

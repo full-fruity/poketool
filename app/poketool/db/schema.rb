@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_08_112826) do
+ActiveRecord::Schema.define(version: 2019_02_09_084028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,10 +55,10 @@ ActiveRecord::Schema.define(version: 2019_02_08_112826) do
     t.integer "effort_ctc"
     t.integer "effort_def"
     t.integer "effort_spd"
-    t.string "skill1"
-    t.string "skill2"
-    t.string "skill3"
-    t.string "skill4"
+    t.integer "skill1_id"
+    t.integer "skill2_id"
+    t.integer "skill3_id"
+    t.integer "skill4_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

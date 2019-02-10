@@ -1,0 +1,25 @@
+<h1>登録</h1>
+<%= form_with url: '/monster' do |form| %>
+  <div class="my_monster_form">
+    <label>name : <%= form.text_field :name %></label>
+    <label>nicname : <%= form.text_field :nicname %></label>
+    <label>personality : <%= form.select(:parsonality, [['ijippari', 1], ['hikaeme', 2]]) %></label>
+    <label>individual_hp : <%= form.number_field :individual_hp, value:0, min:0, max:31 %></label>
+    <label>individual_atk : <%= form.number_field :individual_atk, value:0, min:0, max:31 %></label>
+    <label>individual_blk : <%= form.number_field :individual_blk, value:0, min:0, max:31 %></label>
+    <label>individual_ctc : <%= form.number_field :individual_ctc, value:0, min:0, max:31 %></label>
+    <label>individual_def : <%= form.number_field :individual_def, value:0, min:0, max:31 %></label>
+    <label>individual_spd : <%= form.number_field :individual_spd, value:0, min:0, max:31 %></label>
+    <label>effort_hp : <%= form.number_field :effort_hp, value:0, min:0, max:252 %></label>
+    <label>effort_atk : <%= form.number_field :effort_atk, value:0, min:0, max:252 %></label>
+    <label>effort_blk : <%= form.number_field :effort_blk, value:0, min:0, max:252 %></label>
+    <label>effort_ctc : <%= form.number_field :effort_ctc, value:0, min:0, max:252 %></label>
+    <label>effort_def : <%= form.number_field :effort_def, value:0, min:0, max:252 %></label>
+    <label>effort_spd : <%= form.number_field :effort_spd, value:0, min:0, max:252 %></label>
+    <label>skill : <%= form.text_field :skill1 %></label>
+    <label>skill : <%= form.text_field :skill2 %></label>
+    <label>skill : <%= form.text_field :skill3 %></label>
+    <label>skill : <%= form.text_field :skill4 %></label>
+    <%= form.submit %>
+  </div>
+<% end %>

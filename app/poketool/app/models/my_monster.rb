@@ -1,6 +1,6 @@
 class MyMonster < ApplicationRecord
 
-  validates :user, presence: true
+  # validates :user, presence: true
   validates :monster, presence: true
   validates :nicname, length: { in: 1..6 }
 

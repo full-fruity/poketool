@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get  '/new' => 'monsters#new'
   post '/monster' => 'monsters#create'
-  get  '/monster' => 'monsters#show'
+  get  '/monster' => 'monsters#index'
   get  '/' => 'monsters#top'
 
 end

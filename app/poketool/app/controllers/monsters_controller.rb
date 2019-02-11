@@ -65,7 +65,7 @@ class MonstersController < ApplicationController
 
   end
 
-  def show
+  def index
     @monsters = MyMonster.all
   end
 

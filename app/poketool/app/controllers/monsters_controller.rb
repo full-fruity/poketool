@@ -69,4 +69,9 @@ class MonstersController < ApplicationController
     @monsters = MyMonster.all
   end
 
+  def show
+    @my_monster = MyMonster.find_by(id: params[:id])
+    @monster = @my_monster.monster
+  end
+
 end

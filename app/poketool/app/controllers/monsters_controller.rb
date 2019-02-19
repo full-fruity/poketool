@@ -50,4 +50,10 @@ class MonstersController < ApplicationController
     @monster = @my_monster.monster
   end
 
+  def destroy
+    @my_monster = MyMonster.find_by(id: params[:id])
+    @my_monster.destroy
+    redirect_to('/monster')
+  end
+
 end

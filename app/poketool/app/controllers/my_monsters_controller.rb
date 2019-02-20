@@ -1,4 +1,4 @@
-class MonstersController < ApplicationController
+class MyMonstersController < ApplicationController
   before_action :authenticate_user!
 
   def top
@@ -37,7 +37,7 @@ class MonstersController < ApplicationController
     )
 
     mymonster.save
-    redirect_to('/monster')
+    redirect_to('/my_monster')
 
   end
 
@@ -55,7 +55,7 @@ class MonstersController < ApplicationController
     # binding.pry
     authorize @my_monster
     @my_monster.destroy
-    redirect_to('/monster')
+    redirect_to('/my_monster')
   end
 
 end

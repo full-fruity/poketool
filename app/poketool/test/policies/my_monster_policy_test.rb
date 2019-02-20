@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class MonsterPolicyTest < ActiveSupport::TestCase
+class MyMonsterPolicyTest < ActiveSupport::TestCase
   def test_scope
   end
 

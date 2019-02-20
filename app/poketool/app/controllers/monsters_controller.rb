@@ -37,7 +37,7 @@ class MonstersController < ApplicationController
     )
 
     mymonster.save
-    redirect_to('/')
+    redirect_to('/monster')
 
   end
 
@@ -52,6 +52,8 @@ class MonstersController < ApplicationController
 
   def destroy
     @my_monster = MyMonster.find_by(id: params[:id])
+    # binding.pry
+    authorize @my_monster
     @my_monster.destroy
     redirect_to('/monster')
   end

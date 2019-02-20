@@ -30,5 +30,6 @@ class MyMonster < ApplicationRecord
   belongs_to :skill3, :class_name => 'Skill'
   belongs_to :skill4, :class_name => 'Skill'
   belongs_to :parsonality, :class_name => 'Parsonality'
+  belongs_to :user
 
 end

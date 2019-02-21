@@ -1,6 +1,6 @@
 class MonstersController < ApplicationController
   def index
-    @monsters = Monster.all
+    @monsters = Monster.page(params[:page]).per(20)
   end
 
   def show

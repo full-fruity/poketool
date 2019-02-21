@@ -6,7 +6,5 @@
       <td><%= link_to("#{monster.screen_name}", "/monster/#{monster.id}") %></td>
     </tr>
   </table>
-
-
-
 <% end %>
+<%= paginate @monsters %>

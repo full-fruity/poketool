@@ -2,7 +2,6 @@ class ApplicationPolicy
   attr_reader :user, :record
 
   def initialize(user, record)
-    p "initialize!!!"
     @user = user
     @record = record
   end

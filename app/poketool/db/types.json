@@ -1,0 +1,74 @@
+[
+  {
+    "name": "fire",
+    "screen_name": "ほのお"
+  },
+  {
+    "name": "water",
+    "screen_name": "みず"
+  },
+  {
+    "name": "grass",
+    "screen_name": "くさ"
+  },
+  {
+    "name": "bug",
+    "screen_name": "むし"
+  },
+  {
+    "name": "normal",
+    "screen_name": "ノーマル"
+  },
+  {
+    "name": "ghost",
+    "screen_name": "ゴースト"
+  },
+  {
+    "name": "fighting",
+    "screen_name": "かくとう"
+  },
+  {
+    "name": "flying",
+    "screen_name": "ひこう"
+  },
+  {
+    "name": "poison",
+    "screen_name": "どく"
+  },
+  {
+    "name": "ground",
+    "screen_name": "じめん"
+  },
+  {
+    "name": "rock",
+    "screen_name": "いわ"
+  },
+  {
+    "name": "steel",
+    "screen_name": "はがね"
+  },
+  {
+    "name": "electric",
+    "screen_name": "でんき"
+  },
+  {
+    "name": "dragon",
+    "screen_name": "ドラゴン"
+  },
+  {
+    "name": "psychic",
+    "screen_name": "エスパー"
+  },
+  {
+    "name": "ice",
+    "screen_name": "こおり"
+  },
+  {
+    "name": "dark",
+    "screen_name": "あく"
+  },
+  {
+    "name": "fairy",
+    "screen_name": "フェアリー"
+  }
+]

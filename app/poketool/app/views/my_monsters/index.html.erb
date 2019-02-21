@@ -1,0 +1,4 @@
+<% @monsters.each do |monster| %>
+  <%= link_to("#{monster.nicname}", "/my_monster/#{monster.id}") %>
+<% end %>
+<%= link_to('back', '/') %>

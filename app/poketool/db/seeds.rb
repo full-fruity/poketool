@@ -6,6 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+type = ActiveSupport::JSON.decode(File.read('types.json'))
+type.each do |data|
+  Type.create(name:data['name'], screen_name:data['screen_name'])
+end
+
+personality = ActiveSupport::JSON.decode(File.read('personalities.json'))
+personality.each do |data|
+  Parsonality.create(name:data['name'], screen_name:data['screen_name'], atk:data['atk'], blk:data['blk'], ctc:data['ctc'], def:data['def'], spd:data['spd'])
+end
 
 skill = ActiveSupport::JSON.decode(File.read('/usr/src/app/poketool/db/skills.json'))
 skill.each do |data|

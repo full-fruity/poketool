@@ -1,0 +1,227 @@
+[
+  {
+    "name": "adamant",
+    "screen_name": "いじっぱり",
+    "atk": 1.1,
+    "blk": 1.0,
+    "ctc": 0.9,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "bashful",
+    "screen_name": "てれや",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "bold",
+    "screen_name": "ずぶとい",
+    "atk": 0.9,
+    "blk": 1.1,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "brave",
+    "screen_name": "ゆうかん",
+    "atk": 1.1,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 0.9
+  },
+  {
+    "name": "calm",
+    "screen_name": "おだやか",
+    "atk": 0.9,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.1,
+    "spd": 1.0
+  },
+  {
+    "name": "careful",
+    "screen_name": "しんちょう",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 0.9,
+    "def": 1.1,
+    "spd": 1.0
+  },
+  {
+    "name": "docile",
+    "screen_name": "すなお",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "gentle",
+    "screen_name": "おとなしい",
+    "atk": 1.0,
+    "blk": 0.9,
+    "ctc": 1.0,
+    "def": 1.1,
+    "spd": 1.0
+  },
+  {
+    "name": "hardy",
+    "screen_name": "がんばりや",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "hasty",
+    "screen_name": "せっかち",
+    "atk": 1.0,
+    "blk": 0.9,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "impish",
+    "screen_name": "わんぱく",
+    "atk": 1.0,
+    "blk": 1.1,
+    "ctc": 0.9,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "jolly",
+    "screen_name": "ようき",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 0.9,
+    "def": 1.0,
+    "spd": 1.1
+  },
+  {
+    "name": "lax",
+    "screen_name": "のうてんき",
+    "atk": 1.0,
+    "blk": 1.1,
+    "ctc": 1.0,
+    "def": 0.9,
+    "spd": 1.0
+  },
+  {
+    "name": "lonely",
+    "screen_name": "さみしがり",
+    "atk": 1.1,
+    "blk": 0.9,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "mild",
+    "screen_name": "おっとり",
+    "atk": 1.0,
+    "blk": 0.9,
+    "ctc": 1.1,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "modest",
+    "screen_name": "ひかえめ",
+    "atk": 0.9,
+    "blk": 1.0,
+    "ctc": 1.1,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "naive",
+    "screen_name": "むじゃき",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 0.9,
+    "spd": 1.1
+  },
+  {
+    "name": "naughty",
+    "screen_name": "やんちゃ",
+    "atk": 1.1,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 0.9,
+    "spd": 1.0
+  },
+  {
+    "name": "quiet",
+    "screen_name": "れいせい",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.1,
+    "def": 1.0,
+    "spd": 0.9
+  },
+  {
+    "name": "quirky",
+    "screen_name": "きまぐれ",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "rash",
+    "screen_name": "うっかりや",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.1,
+    "def": 0.9,
+    "spd": 1.0
+  },
+  {
+    "name": "relaxed",
+    "screen_name": "のんき",
+    "atk": 1.0,
+    "blk": 1.1,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 0.9
+  },
+  {
+    "name": "sassy",
+    "screen_name": "なまいき",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.1,
+    "spd": 0.9
+  },
+  {
+    "name": "serious",
+    "screen_name": "まじめ",
+    "atk": 1.0,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.0
+  },
+  {
+    "name": "timid",
+    "screen_name": "おくびょう",
+    "atk": 0.9,
+    "blk": 1.0,
+    "ctc": 1.0,
+    "def": 1.0,
+    "spd": 1.1
+  }
+]

@@ -1,9 +1,9 @@
 <h1>登録</h1>
-<%= form_with url: '/monster' do |form| %>
+<%= form_with url: '/my_monster' do |form| %>
   <div class="my_monster_form">
     <label>name : <%= form.text_field :name %></label>
     <label>nicname : <%= form.text_field :nicname %></label>
-    <label>personality : <%= form.select(:parsonality, [['ijippari', 1], ['hikaeme', 2]]) %></label>
+    <label>parsonality : <%= form.text_field :parsonality %></label>
     <label>individual_hp : <%= form.number_field :individual_hp, value:0, min:0, max:31 %></label>
     <label>individual_atk : <%= form.number_field :individual_atk, value:0, min:0, max:31 %></label>
     <label>individual_blk : <%= form.number_field :individual_blk, value:0, min:0, max:31 %></label>
@@ -16,10 +16,10 @@
     <label>effort_ctc : <%= form.number_field :effort_ctc, value:0, min:0, max:252 %></label>
     <label>effort_def : <%= form.number_field :effort_def, value:0, min:0, max:252 %></label>
     <label>effort_spd : <%= form.number_field :effort_spd, value:0, min:0, max:252 %></label>
-    <label>skill : <%= form.text_field :skill1 %></label>
-    <label>skill : <%= form.text_field :skill2 %></label>
-    <label>skill : <%= form.text_field :skill3 %></label>
-    <label>skill : <%= form.text_field :skill4 %></label>
-    <%= form.submit %>
+    <label>skill1 : <%= form.text_field :skill1 %></label>
+    <label>skill2 : <%= form.text_field :skill2 %></label>
+    <label>skill3 : <%= form.text_field :skill3 %></label>
+    <label>skill4 : <%= form.text_field :skill4 %></label>
+    <label><%= form.submit %></label>
   </div>
 <% end %>

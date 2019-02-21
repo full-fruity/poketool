@@ -1,6 +1,6 @@
 class MyMonster < ApplicationRecord
 
-  validates :user, presence: true
+  # validates :user, presence: true
   validates :monster, presence: true
   validates :nicname, length: { in: 1..6 }
 
@@ -30,5 +30,6 @@ class MyMonster < ApplicationRecord
   belongs_to :skill3, :class_name => 'Skill'
   belongs_to :skill4, :class_name => 'Skill'
   belongs_to :parsonality, :class_name => 'Parsonality'
+  belongs_to :user
 
 end

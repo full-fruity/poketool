@@ -4,7 +4,11 @@
     <title>Poketool</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <div>
+      <%= link_to('PokeTool', '/') %>
+      <%= link_to('登録', '/new') %>
+      <%= link_to('一覧', '/my_monster') %>
+    </div>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>

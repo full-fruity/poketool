@@ -1,4 +1,82 @@
-<%= @my_monster.nicname %>
-<%= @monster.screen_name %>
-<%= link_to('delete', "/my_monster/#{@my_monster.id}", :method => 'delete') %>
+<div class="">
+  <%= @monster.screen_name %>
+  <table>
+    <tr>
+      <td> NN : </td>
+      <td><%= @my_monster.nicname %></td>
+    </tr>
+    <tr>
+      <td>性格 : </td>
+      <td><%= @my_monster_personality.screen_name %></td>
+    </tr>
+  </table>
+</div>
+<div class="">
+  <table>
+    <tr>
+      <td></td>
+      <td>種族値</td>
+      <td>個体値</td>
+      <td>努力値</td>
+      <td>実数値</td>
+    </tr>
+    <tr>
+      <td> HP </td>
+      <td><%= @monster.hp %></td>
+      <td><%= @my_monster.individual_hp %></td>
+      <td><%= @my_monster.effort_hp %></td>
+      <td><%= @my_monster_hp %></td>
+    </tr>
+    <tr>
+      <td>攻撃</td>
+      <td><%= @monster.atk %></td>
+      <td><%= @my_monster.individual_hp %></td>
+      <td><%= @my_monster.effort_hp %></td>
+      <td><%= @my_monster_hp %></td>
+    </tr>
+    <tr>
+      <td>防御</td>
+      <td><%= @monster.blk %></td>
+      <td><%= @my_monster.individual_blk %></td>
+      <td><%= @my_monster.effort_blk %></td>
+      <td><%= @my_monster_blk %></td>
+    </tr>
+    <tr>
+      <td>特攻</td>
+      <td><%= @monster.ctc %></td>
+      <td><%= @my_monster.individual_ctc %></td>
+      <td><%= @my_monster.effort_ctc %></td>
+      <td><%= @my_monster_ctc %></td>
+    </tr>
+    <tr>
+      <td>特防</td>
+      <td><%= @monster.def %></td>
+      <td><%= @my_monster.individual_def %></td>
+      <td><%= @my_monster.effort_def %></td>
+      <td><%= @my_monster_def %></td>
+    </tr>
+    <tr>
+      <td>素早</td>
+      <td><%= @monster.spd %></td>
+      <td><%= @my_monster.individual_spd %></td>
+      <td><%= @my_monster.effort_spd %></td>
+      <td><%= @my_monster_spd %></td>
+    </tr>
+  </table>
+</div>
+<div class="">
+  <table>
+    <tr>
+      <td><%= @my_monster_skill1.screen_name %></td>
+      <td><%= @my_monster_skill2.screen_name %></td>
+    </tr>
+    <tr>
+      <td><%= @my_monster_skill3.screen_name %></td>
+      <td><%= @my_monster_skill4.screen_name %></td>
+    </tr>
+  </table>
+</div>
+<% if policy(@my_monster).destroy? %>
+  <%= link_to('delete', "/my_monster/#{@my_monster.id}", :method => 'delete') %>
+<% end %>
 <%= link_to('back', '/my_monster') %>

@@ -1,4 +1,9 @@
-<% @monsters.each do |monster| %>
-  <%= link_to("#{monster.nicname}", "/my_monster/#{monster.id}") %>
+<% @my_monsters.each do |my_monster| %>
+  <table>
+    <tr>
+      <td><%= link_to("#{my_monster.nicname}", "/my_monster/#{my_monster.id}") %></td>
+      <td><%= my_monster.monster.screen_name %></td>
+    </tr>
+  </table>
 <% end %>
-<%= link_to('back', '/') %>
+<%= paginate @my_monsters %>

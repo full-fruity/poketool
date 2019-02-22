@@ -42,7 +42,7 @@ class MyMonstersController < ApplicationController
   end
 
   def index
-    @monsters = MyMonster.all
+    @my_monsters = MyMonster.page(params[:page]).per(20)
   end
 
   def status_calculation(base, individual, effort, personality)

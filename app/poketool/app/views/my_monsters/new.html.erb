@@ -1,25 +1,83 @@
-<h1>登録</h1>
 <%= form_with url: '/my_monster' do |form| %>
-  <div class="my_monster_form">
-    <label>name : <%= form.text_field :name %></label>
-    <label>nicname : <%= form.text_field :nicname %></label>
-    <label>parsonality : <%= form.text_field :parsonality %></label>
-    <label>individual_hp : <%= form.number_field :individual_hp, value:0, min:0, max:31 %></label>
-    <label>individual_atk : <%= form.number_field :individual_atk, value:0, min:0, max:31 %></label>
-    <label>individual_blk : <%= form.number_field :individual_blk, value:0, min:0, max:31 %></label>
-    <label>individual_ctc : <%= form.number_field :individual_ctc, value:0, min:0, max:31 %></label>
-    <label>individual_def : <%= form.number_field :individual_def, value:0, min:0, max:31 %></label>
-    <label>individual_spd : <%= form.number_field :individual_spd, value:0, min:0, max:31 %></label>
-    <label>effort_hp : <%= form.number_field :effort_hp, value:0, min:0, max:252 %></label>
-    <label>effort_atk : <%= form.number_field :effort_atk, value:0, min:0, max:252 %></label>
-    <label>effort_blk : <%= form.number_field :effort_blk, value:0, min:0, max:252 %></label>
-    <label>effort_ctc : <%= form.number_field :effort_ctc, value:0, min:0, max:252 %></label>
-    <label>effort_def : <%= form.number_field :effort_def, value:0, min:0, max:252 %></label>
-    <label>effort_spd : <%= form.number_field :effort_spd, value:0, min:0, max:252 %></label>
-    <label>skill1 : <%= form.text_field :skill1 %></label>
-    <label>skill2 : <%= form.text_field :skill2 %></label>
-    <label>skill3 : <%= form.text_field :skill3 %></label>
-    <label>skill4 : <%= form.text_field :skill4 %></label>
-    <label><%= form.submit %></label>
-  </div>
+  <table>
+    <tr>
+      <td>name : </td>
+      <td><%= form.text_field :name %></td>
+    </tr>
+    <tr>
+      <td>nicname : </td>
+      <td><%= form.text_field :nicname %></td>
+    </tr>
+    <tr>
+      <td>parsonality : </td>
+      <td><%= form.text_field :parsonality %></td>
+    </tr>
+    <tr>
+      <td>individual_hp : </td>
+      <td><%= form.number_field :individual_hp, value:0, min:0, max:31 %></td>
+    </tr>
+    <tr>
+      <td>individual_atk : </td>
+      <td><%= form.number_field :individual_atk, value:0, min:0, max:31 %></td>
+    </tr>
+    <tr>
+      <td>individual_blk : </td>
+      <td><%= form.number_field :individual_blk, value:0, min:0, max:31 %></td>
+    </tr>
+    <tr>
+      <td>individual_ctc : </td>
+      <td><%= form.number_field :individual_ctc, value:0, min:0, max:31 %></td>
+    </tr>
+    <tr>
+      <td>individual_def : </td>
+      <td><%= form.number_field :individual_def, value:0, min:0, max:31 %></td>
+    </tr>
+    <tr>
+      <td>individual_spd : </td>
+      <td><%= form.number_field :individual_spd, value:0, min:0, max:31 %></td>
+    </tr>
+    <tr>
+      <td>effort_hp : </td>
+      <td><%= form.number_field :effort_hp, value:0, min:0, max:252 %></td>
+    </tr>
+    <tr>
+      <td>effort_atk : </td>
+      <td><%= form.number_field :effort_atk, value:0, min:0, max:252 %></td>
+    </tr>
+    <tr>
+      <td>effort_blk : </td>
+      <td><%= form.number_field :effort_blk, value:0, min:0, max:252 %></td>
+    </tr>
+    <tr>
+      <td>effort_ctc : </td>
+      <td><%= form.number_field :effort_ctc, value:0, min:0, max:252 %></td>
+    </tr>
+    <tr>
+      <td>effort_def : </td>
+      <td><%= form.number_field :effort_def, value:0, min:0, max:252 %></td>
+    </tr>
+    <tr>
+      <td>effort_spd : </td>
+      <td><%= form.number_field :effort_spd, value:0, min:0, max:252 %></td>
+    </tr>
+    <tr>
+      <td>skill1 : </td>
+      <td><%= form.text_field :skill1 %></td>
+    </tr>
+    <tr>
+      <td>skill2 : </td>
+      <td><%= form.text_field :skill2 %></td>
+    </tr>
+    <tr>
+      <td>skill3 : </td>
+      <td><%= form.text_field :skill3 %></td>
+    </tr>
+    <tr>
+      <td>skill4 : </td>
+      <td><%= form.text_field :skill4 %></td>
+    </tr>
+    <tr>
+      <td><%= form.submit %></td>
+    </tr>
+  </table>
 <% end %>

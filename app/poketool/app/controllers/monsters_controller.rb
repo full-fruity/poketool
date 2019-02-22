@@ -5,6 +5,7 @@ class MonstersController < ApplicationController
 
   def show
     @monster = Monster.find_by(id: params[:id])
+    @base_total = @monster.hp + @monster.atk + @monster.blk + @monster.ctc + @monster.def + @monster.spd
   end
 
 end

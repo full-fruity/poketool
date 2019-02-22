@@ -1,0 +1,27 @@
+<h1><%= @skill.screen_name %></h1>
+<table>
+  <tr>
+    <td>タイプ</td>
+    <td><%= @skill.type.screen_name %></td>
+  </tr>
+  <tr>
+    <td>威力</td>
+    <% if @skill.power == nil %>
+      <td> - </td>
+    <% else %>
+      <td><%= @skill.power %></td>
+    <% end %>
+  </tr>
+  <tr>
+    <td>命中</td>
+    <% if @skill.accuracy == nil %>
+      <td> - </td>
+    <% else %>
+      <td><%= @skill.accuracy %></td>
+    <% end %>
+  </tr>
+  <tr>
+    <td> PP </td>
+    <td><%= @skill.pp %></td>
+  </tr>
+</table>

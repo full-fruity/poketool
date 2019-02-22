@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get  '/my_monster' => 'my_monsters#index'
   get  '/skill/:name' => 'skills#show'
   get  '/skill' => 'skills#index'
+  get  '/monster/:name' => 'monsters#show'
+  get  '/monster' => 'monsters#index'
   get  '/' => 'my_monsters#top'
 
 end

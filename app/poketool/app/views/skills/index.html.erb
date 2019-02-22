@@ -1,7 +1,7 @@
 <% @skills.each do|skill| %>
 <table>
   <tr>
-    <td><%= skill.screen_name %></td>
+    <td><%= link_to("#{skill.screen_name}", "/skill/#{skill.name}") %></td>
   </tr>
 </table>
 <% end %>

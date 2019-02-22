@@ -1,0 +1,10 @@
+<% @monsters.each do|monster| %>
+  <table>
+    <tr>
+      <td>No. </td>
+      <td><%= monster.no %></td>
+      <td><%= link_to("#{monster.screen_name}", "/monster/#{monster.name}") %></td>
+    </tr>
+  </table>
+<% end %>
+<%= paginate @monsters %>

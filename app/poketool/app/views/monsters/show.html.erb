@@ -1,0 +1,47 @@
+<h1><%= @monster.screen_name %></h1>
+<table>
+  <tr>
+    <td>図鑑 No.</td>
+    <td><%= @monster.no %></td>
+  </tr>
+  <tr>
+    <td>タイプ</td>
+    <td><%= @monster.type1.screen_name %></td>
+    <% if @monster.type2_id != nil %>
+      <td><%= @monster.type2.screen_name %></td>
+    <% end %>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>種族値</td>
+  </tr>
+  <tr>
+    <td> HP </td>
+    <td><%= @monster.hp %></td>
+  </tr>
+  <tr>
+    <td>攻撃</td>
+    <td><%= @monster.atk %></td>
+  </tr>
+  <tr>
+    <td>防御</td>
+    <td><%= @monster.blk %></td>
+  </tr>
+  <tr>
+    <td>特攻</td>
+    <td><%= @monster.ctc %></td>
+  </tr>
+  <tr>
+    <td>特防</td>
+    <td><%= @monster.def %></td>
+  </tr>
+  <tr>
+    <td>素早</td>
+    <td><%= @monster.spd %></td>
+  </tr>
+  <tr>
+    <td>合計</td>
+    <td><%= @base_total %></td>
+  </tr>
+</table>

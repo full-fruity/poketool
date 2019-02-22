@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   delete '/my_monster/:id' => 'my_monsters#destroy'
   post '/my_monster' => 'my_monsters#create'
   get  '/my_monster' => 'my_monsters#index'
+  get  '/skill' => 'skills#index'
   get  '/' => 'my_monsters#top'
 
 end

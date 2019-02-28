@@ -10,14 +10,17 @@ class MonstersController < ApplicationController
 
   def search
 
+    # FIXME: 例外処理の修正
     if params[:name] == nil
       raise ClientError::NotAcceptable
     end
 
+    # FIXME: 例外処理の修正
     if params[:name].length == 0
       raise ClientError::NotAcceptable
     end
 
+    # FIXME: 例外処理の修正
     if params[:name].length > 6
       raise ClientError::NotAcceptable
     end

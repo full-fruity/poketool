@@ -1,3 +1,4 @@
 .local/
 .bash_history
 .bundle/
+.viminfo

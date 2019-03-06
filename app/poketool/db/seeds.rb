@@ -25,3 +25,18 @@ monster = ActiveSupport::JSON.decode(File.read('/usr/src/app/poketool/db/pokedex
 monster.each do |data|
   Monster.create(no:data['id'], name:data['name']['english'], screen_name:data['name']['japanese'], type1_id:data['type'][0], type2_id:data['type'][1], hp:data['base']['hp'], atk:data['base']['attack'], blk:data['base']['defense'], ctc:data['base']['sp. attack'], def:data['base']['sp. defense'], spd:data['base']['speed'])
 end
+
+strong_point = ActiveSupport::JSON.decode(File.read('/usr/src/app/poketool/db/strong_points.json'))
+strong_point.each do |data|
+  Strong_point.create(from_type_id:data['from_type_id'], to_type_id:data['to_type_id'])
+end
+
+week_point = ActiveSupport::JSON.decode(File.read('/usr/src/app/poketool/db/week_points.json'))
+week_point.each do |data|
+  Week_point.create(from_type_id:data['from_type_id'], to_type_id:data['to_type_id'])
+end
+
+invalid = ActiveSupport::JSON.decode(File.read('/usr/src/app/poketool/db/invalids.json'))
+invalid.each do |data|
+  Week_point.create(from_type_id:data['from_type_id'], to_type_id:data['to_type_id'])
+end

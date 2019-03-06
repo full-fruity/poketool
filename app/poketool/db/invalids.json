@@ -1,0 +1,26 @@
+[
+  {
+    "from_type_id": 5,
+    "to_type_id": 6
+  },
+  {
+    "from_type_id": 6,
+    "to_type_id": 5
+  },
+  {
+    "from_type_id": 8,
+    "to_type_id": 10
+  },
+  {
+    "from_type_id": 10,
+    "to_type_id": 13
+  },
+  {
+    "from_type_id": 12,
+    "to_type_id": 9
+  },
+  {
+    "from_type_id": 18,
+    "to_type_id": 15
+  }
+]

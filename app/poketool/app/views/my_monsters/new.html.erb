@@ -1,8 +1,12 @@
-<%= form_with url: '/my_monster' do |form| %>
+<%= form_with url: '/my_monster', id: :poke_data do |form| %>
   <table>
     <tr>
       <td>name : </td>
-      <td><%= form.text_field :name %></td>
+      <td><%= form.text_field :name, id: :pokename %></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><div id="nameList"></div></td>
     </tr>
     <tr>
       <td>nicname : </td>

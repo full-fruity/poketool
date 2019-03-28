@@ -10,19 +10,19 @@ class MonstersController < ApplicationController
 
   def search
 
-    # FIXME: 例外処理の修正
     if params[:name] == nil
-      raise ClientError::NotAcceptable
+      # return head(:bad_request)
+      raise ActionController::BadRequest
     end
 
-    # FIXME: 例外処理の修正
     if params[:name].length == 0
-      raise ClientError::NotAcceptable
+      # return head(:bad_request)
+      raise ActionController::BadRequest
     end
 
-    # FIXME: 例外処理の修正
     if params[:name].length > 6
-      raise ClientError::NotAcceptable
+      # return head(:bad_request)
+      raise ActionController::BadRequest
     end
 
     names = Monster.where('screen_name LIKE ?', "#{params[:name].tr('ぁ-ん','ァ-ン')}%")
